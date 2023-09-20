@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFDF9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFDF9"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="SpeakableTextPresentCheck"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="111dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="-25dp"
+                android:layout_marginTop="-50dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="@+id/button"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/logo" />
+
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="108dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="@font/adlery"
+                android:text="BRINK+"
+                android:textColor="#2E0084"
+                android:textSize="40dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toStartOf="@+id/menu"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="1.0">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="70dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="-40dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.997"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="0.816"
+                app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+            <ImageView
+                android:id="@+id/gotas"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="50sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textView8"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.011"
+                app:srcCompat="@drawable/gotas" />
+
+            <ImageView
+                android:id="@+id/gotas2"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_marginRight="50dp"
+                android:rotationY="180"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.011"
+                app:srcCompat="@drawable/gotas" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginRight="110dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center_horizontal"
+                android:text="AnTeCeSsOrEs E sUcEsSoReS"
+                android:textAllCaps="false"
+                android:textColor="#454040"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.562"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_margin="40dp"
+                android:layout_marginTop="28dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center"
+                android:text="Este brinquedo auxiliará no aprendizado da criança ao praticar quais os números que vêm antes e depois de alguns já determinados. Então vamos ao tutorial!"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.004"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="0dp"
+                android:layout_height="340dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView16"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:fontFamily="@font/bryndan"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text="PASSO 2: ainda com a régua, pegue o lápis (ou caneta) e divida o comprimento do retângulo em três partes iguais de 5 cm cada. No espaço central deste retângulo, escreva apenas o número determinado, por exemplo: 2, já que o antecessor e sucessor do número 2 seriam consecutivamente 1 e 3."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+                app:layout_constraintEnd_toEndOf="@+id/imageView23"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="@+id/imageView23"
+                app:layout_constraintTop_toTopOf="@+id/imageView23" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="0dp"
+                android:layout_height="340dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView31"
+                app:layout_constraintBottom_toBottomOf="@id/linearLayout2"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:fontFamily="@font/bryndan"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text="PASSO 1: comece a desmontar a caixa de papelão, pois não a usaremos montada. Pegue então a régua e meça um retângulo de 15x6 (ou o tamanho de sua preferência). Trace as linhas do retângulo, e em seguida recorte-o com cuidado utilizando a tesoura."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+                app:layout_constraintEnd_toEndOf="@+id/imageView17"
+                app:layout_constraintHorizontal_bias="0.469"
+                app:layout_constraintStart_toStartOf="@+id/imageView17"
+                app:layout_constraintTop_toTopOf="@+id/imageView17"
+                app:layout_constraintVertical_bias="0.187" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="55dp"
+                android:src="@drawable/antecessor_sucessor3"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+                app:layout_constraintEnd_toEndOf="@+id/imageView31"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="@+id/imageView31"
+                app:layout_constraintTop_toTopOf="@+id/imageView31"
+                app:layout_constraintVertical_bias="0.5"/>
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="55dp"
+                android:src="@drawable/antecessor_sucessor2"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+                app:layout_constraintEnd_toEndOf="@+id/imageView16"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="@+id/imageView16"
+                app:layout_constraintTop_toTopOf="@+id/imageView16"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="330dp"
+                android:layout_height="200dp"
+                android:layout_margin="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:fontFamily="@font/bryndan"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text="MATERIAIS: os materiais necessários para a sua confecção são: papelão (que pode ser retirado de caixas); uma régua; lápis ou caneta; tesoura (de preferência sem pontas, para as crianças); tampinhas de garrafas de água, refrigerante e/ou leite; e caneta p/ cd. Depois de reunir todos os materiais, mãos à obra!"
+                android:textColor="#000000"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                app:layout_constraintHorizontal_bias="0.457"
+                app:layout_constraintStart_toStartOf="@+id/imageView5"
+                app:layout_constraintTop_toTopOf="@+id/imageView5"
+                app:layout_constraintVertical_bias="0.418" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="340dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView14"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="330dp"
+                android:layout_height="200dp"
+                android:layout_margin="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="55dp"
+                android:src="@drawable/antecessor_sucessor1"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+                app:layout_constraintEnd_toEndOf="@+id/imageView14"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="@+id/imageView14"
+                app:layout_constraintTop_toTopOf="@+id/imageView14"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="0dp"
+                android:layout_height="340dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView33"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:fontFamily="@font/bryndan"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text="PASSO 3: pegue duas tampinhas, e com a caneta p/ cd, escreva em cada uma delas o seu número correspondente. Neste caso, uma tampinha com o número 1 e outra com o número 2. Repita este processo de acordo com a quantidade de números que desejar."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+                app:layout_constraintEnd_toEndOf="@+id/imageView30"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="@+id/imageView30"
+                app:layout_constraintTop_toTopOf="@+id/imageView30"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="90dp"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text="RESULTADO"
+                android:textAllCaps="false"
+                android:textColor="#454040"
+                android:textSize="38sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.449"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView30">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="0dp"
+                android:layout_height="550dp"
+                android:layout_margin="25dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center"
+                android:text="Prontinho, viu como é fácil de se fazer? Você pode optar por deixar o brinquedo decorado, já que esse é um ponto positivo para quando se quer atrair a atenção de uma criança! Você pode usar folhas de papel e desenhar círculos usando a própria tampinha de garrafa e o lápis como no exemplo abaixo. Depois disso, corte-os com a tesoura e use cola branca para colá-los em cima de cada tampinha com seus números decorados."
+                android:textAllCaps="false"
+                android:textColor="#454040"
+                android:textSize="60sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17"
+                app:layout_constraintVertical_bias="0.0">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_margin="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.449"
+                app:layout_constraintTop_toBottomOf="@+id/imageView27"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/antecessor_sucessor6" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_margin="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/antecessor_sucessor5" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_margin="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.449"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView28"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/antecessor_sucessor7" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="330dp"
+                android:layout_height="200dp"
+                android:layout_margin="40dp"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView17"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="55dp"
+                android:src="@drawable/antecessor_sucessor4"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView30"
+                app:layout_constraintEnd_toEndOf="@+id/imageView33"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="@+id/imageView33"
+                app:layout_constraintTop_toTopOf="@+id/imageView33"
+                app:layout_constraintVertical_bias="0.5"/>
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="330dp"
+                android:layout_height="200dp"
+                android:layout_margin="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView23"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

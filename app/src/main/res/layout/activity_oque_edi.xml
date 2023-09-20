@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFDF9"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFDF9"
+        android:gravity="fill"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2120dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="2120dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="410dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-1dp"
+                    android:background="@drawable/menu"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.002">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="111dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-25dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/logo" />
+
+                <TextView
+                    android:layout_width="108dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:fontFamily="@font/adlery"
+                    android:gravity="center"
+                    android:text="BRINK+"
+                    android:textColor="#2E0084"
+                    android:textSize="40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.182"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0">
+
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="70dp"
+                    android:layout_height="41dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="-40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.997"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+
+                <ImageView
+                    android:id="@+id/gotas"
+                    android:layout_width="70dp"
+                    android:layout_height="68dp"
+                    android:layout_marginLeft="90sp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintEnd_toStartOf="@+id/textView9"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/gotas" />
+
+                <ImageView
+                    android:id="@+id/gotas2"
+                    android:layout_width="70dp"
+                    android:layout_height="68dp"
+                    android:layout_marginLeft="-30sp"
+                    android:layout_marginTop="32dp"
+                    android:rotationY="180"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView9"
+                    app:layout_constraintTop_toBottomOf="@+id/menu"
+                    app:srcCompat="@drawable/gotas" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="187dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="O qUe É dI"
+                    android:textAllCaps="false"
+                    android:textColor="#454040"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.375">
+
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="333dp"
+                    android:layout_height="1900dp"
+                    android:layout_marginTop="132dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/borda_quemsomos" />
+
+                <TextView
+                    android:id="@+id/parte1"
+                    android:layout_width="271dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="   Talvez nem todos saibam o que é a DI (Deficiência Intelectual), mas nós estamos aqui para te explicar! "
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.467"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+                <TextView
+                    android:id="@+id/parte2"
+                    android:layout_width="271dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="   Deficiência Intelectual é um termo que caracteriza as dificuldades e limitações que o indivíduo tem em relação ao seu desenvolvimento cognitivo. Diante disso, a pessoa, ou nesse caso a criança, que possui DI, apresentará dificuldades quando for colocada em situações em que tenha que raciocinar, solucionar problemas, planejar e realizar tarefas, mesmo que essas sejam as mais simples. Além disso, a criança pode apresentar sinais de que possui DI ao decorrer do seu crescimento, como na sua maneira de se comportar, ou também como ela se comunica com as pessoas ao seu redor e até mesmo em um ambiente de aprendizagem, demonstrando dificuldades com a leitura, escrita e raciocínio lógico no geral."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.467"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/parte1" />
+
+                <TextView
+                    android:id="@+id/parte3"
+                    android:layout_width="271dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="   Dessa maneira, é muito importante que a criança receba o apoio necessário principalmente da família. E para te ajudar a lidar com tudo isso de forma mais leve e divertida, no "
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.467"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/parte2" />
+
+                <TextView
+                    android:id="@+id/parte4"
+                    android:layout_width="271dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/adlery"
+                    android:gravity="center"
+                    android:text="BRINK+"
+                    android:textColor="#2E0084"
+                    android:textSize="30dp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.467"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/parte3" />
+
+                <TextView
+                    android:id="@+id/parte5"
+                    android:layout_width="271dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="   você pode encontrar dicas, vídeos educativos que vão auxiliar a criança a se desenvolver melhor, e também ter acesso a tutoriais de brinquedos propostos pelos próprios criadores."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/parte4"
+                    app:layout_constraintVertical_bias="0.0" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

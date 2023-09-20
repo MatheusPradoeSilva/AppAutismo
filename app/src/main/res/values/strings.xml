@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AplicativoPI</string>
+    <string name="hyperlink">AQUI<a href="http://brinquedosreutilizaveis.atspace.cc/index.php"></a></string>
+    <string name="VideoDente">Link para o vídeo no YouTube<a href="https://youtu.be/3Xij7TMPebI?si=wpHwXj4nPvI9nc6N"></a></string>
+    <string name="dente">ATIVIDADE-ESCOVAR-DENTINHOS.pdf</string>
+    <string name="oquee">ATIVIDADE-O-QUE-É-MEIO-AMBIENTE.pdf</string>
+    <string name="cuidar">ATIVIDADE-CUIDAR-DO-MEIO-AMBIENTE.pdf</string>
+    <string name="reciclar">ATIVIDADE-RECICLAR.pdf</string>
+</resources>

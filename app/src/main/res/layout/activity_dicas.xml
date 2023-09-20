@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFDF9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFDF9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1470dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="1820dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/menu"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="SpeakableTextPresentCheck"/>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="111dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-25dp"
+                    android:layout_marginTop="-50dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/logo" />
+
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="108dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:fontFamily="@font/adlery"
+                    android:text="BRINK+"
+                    android:textColor="#2E0084"
+                    android:textSize="40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toStartOf="@+id/menu"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/imageView3"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="70dp"
+                    android:layout_height="41dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="-40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.997"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.816"
+                    app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+                <ImageView
+                    android:id="@+id/gotas"
+                    android:layout_width="0dp"
+                    android:layout_height="98dp"
+                    android:layout_marginStart="40sp"
+                    android:layout_marginTop="12dp"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/textView22"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/gotas" />
+
+                <ImageView
+                    android:id="@+id/gotas2"
+                    android:layout_width="0dp"
+                    android:layout_height="98dp"
+                    android:layout_marginEnd="40sp"
+                    android:layout_marginTop="12sp"
+                    android:rotationY="180"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView22"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/gotas" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginRight="100dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="DiCaS"
+                    android:textAllCaps="false"
+                    android:textColor="#454040"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="0dp"
+                    android:layout_height="155dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:layout_marginTop="40dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22"
+                    app:srcCompat="@drawable/btamarelo" />
+
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Dica 1"
+                    android:textColor="#E8BF70"
+                    android:textSize="25sp"
+                    app:layout_constraintVertical_bias="0.1"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toTopOf="@+id/imageView5">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/descriamigo"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="16dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Entenda e compreenda o transtorno:"
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:autoSizeTextType="uniform"
+                    android:textStyle="normal"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.482"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+                <Button
+                    android:id="@+id/dica1"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginTop="-6dp"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Dica"
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.845"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/descriamigo"
+                    app:layout_constraintVertical_bias="0.0">
+
+                </Button>
+
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="0dp"
+                    android:layout_height="155dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.547"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                    app:srcCompat="@drawable/cards_iniciais" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Dica 2"
+                    android:textColor="#D6417D"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/img2"
+                    app:layout_constraintEnd_toEndOf="@+id/img2"
+                    app:layout_constraintStart_toStartOf="@+id/img2"
+                    app:layout_constraintTop_toTopOf="@+id/img2"
+                    app:layout_constraintVertical_bias="0.1">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/descri2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Não se importe com o que as outras pessoas dizem "
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:autoSizeTextType="uniform"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/img2"
+                    app:layout_constraintEnd_toEndOf="@+id/img2"
+                    app:layout_constraintHorizontal_bias="0.428"
+                    app:layout_constraintStart_toStartOf="@+id/img2"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+                <Button
+                    android:id="@+id/dica2"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginTop="-6dp"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Dica"
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    app:layout_constraintBottom_toBottomOf="@+id/img2"
+                    app:layout_constraintEnd_toEndOf="@+id/img2"
+                    app:layout_constraintHorizontal_bias="0.859"
+                    app:layout_constraintStart_toStartOf="@+id/img2"
+                    app:layout_constraintTop_toBottomOf="@+id/descri2"
+                    app:layout_constraintVertical_bias="0.769">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="0dp"
+                    android:layout_height="155dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.589"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/img2"
+                    app:srcCompat="@drawable/btamarelo" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Dica 3"
+                    android:textColor="#E8BF70"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/img3"
+                    app:layout_constraintEnd_toEndOf="@+id/img3"
+                    app:layout_constraintStart_toStartOf="@+id/img3"
+                    app:layout_constraintTop_toTopOf="@+id/img3"
+                    app:layout_constraintVertical_bias="0.1">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/descri3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Você pode e deve pedir ajuda"
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    android:autoSizeTextType="uniform"
+                    app:layout_constraintBottom_toBottomOf="@+id/img3"
+                    app:layout_constraintEnd_toEndOf="@+id/img3"
+                    app:layout_constraintHorizontal_bias="0.482"
+                    app:layout_constraintStart_toStartOf="@+id/img3"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:id="@+id/dica3"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginTop="-6dp"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Dica"
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    app:layout_constraintBottom_toBottomOf="@+id/img3"
+                    app:layout_constraintEnd_toEndOf="@+id/img3"
+                    app:layout_constraintHorizontal_bias="0.845"
+                    app:layout_constraintStart_toStartOf="@+id/img3"
+                    app:layout_constraintTop_toBottomOf="@+id/descri3">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="0dp"
+                    android:layout_height="158dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.63"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/img3"
+                    app:srcCompat="@drawable/cards_iniciais" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Dica 4"
+                    android:textColor="#D6417D"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/img4"
+                    app:layout_constraintEnd_toEndOf="@+id/img4"
+                    app:layout_constraintStart_toStartOf="@+id/img4"
+                    app:layout_constraintTop_toTopOf="@+id/img4"
+                    app:layout_constraintVertical_bias="0.1">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/descri4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Arrume um tempinho para cuidar de você"
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    android:autoSizeTextType="uniform"
+                    app:layout_constraintBottom_toBottomOf="@+id/img4"
+                    app:layout_constraintEnd_toEndOf="@+id/img4"
+                    app:layout_constraintHorizontal_bias="0.553"
+                    app:layout_constraintStart_toStartOf="@+id/img4"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:id="@+id/dica4"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginTop="-6dp"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Dica"
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    app:layout_constraintBottom_toBottomOf="@+id/img4"
+                    app:layout_constraintEnd_toEndOf="@+id/img4"
+                    app:layout_constraintHorizontal_bias="0.845"
+                    app:layout_constraintStart_toStartOf="@+id/img4"
+                    app:layout_constraintTop_toBottomOf="@+id/descri4"
+                    app:layout_constraintVertical_bias="0.0">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="0dp"
+                    android:layout_height="155dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.589"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/img4"
+                    app:srcCompat="@drawable/btamarelo" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Dica 5"
+                    android:textColor="#E8BF70"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/img5"
+                    app:layout_constraintEnd_toEndOf="@+id/img5"
+                    app:layout_constraintStart_toStartOf="@+id/img5"
+                    app:layout_constraintTop_toTopOf="@+id/img5"
+                    app:layout_constraintVertical_bias="0.1">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/descri5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Ajude sua criança"
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    android:autoSizeTextType="uniform"
+                    app:layout_constraintBottom_toBottomOf="@+id/img5"
+                    app:layout_constraintEnd_toEndOf="@+id/img5"
+                    app:layout_constraintHorizontal_bias="0.642"
+                    app:layout_constraintStart_toStartOf="@+id/img5"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:id="@+id/dica5"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginTop="-6dp"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Dica"
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    app:layout_constraintBottom_toBottomOf="@+id/img5"
+                    app:layout_constraintEnd_toEndOf="@+id/img5"
+                    app:layout_constraintHorizontal_bias="0.868"
+                    app:layout_constraintStart_toStartOf="@+id/img5"
+                    app:layout_constraintTop_toBottomOf="@+id/descri5"
+                    app:layout_constraintVertical_bias="0.7">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/img6"
+                    android:layout_width="0dp"
+                    android:layout_height="187dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.547"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/img5"
+                    app:srcCompat="@drawable/cards_iniciais" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Dica 6"
+                    android:textColor="#D6417D"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/img6"
+                    app:layout_constraintEnd_toEndOf="@+id/img6"
+                    app:layout_constraintStart_toStartOf="@+id/img6"
+                    app:layout_constraintTop_toTopOf="@+id/img6"
+                    app:layout_constraintVertical_bias="0.1">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/descri6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Começe agora mesmo o tratamento adequado para sua criança"
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    android:autoSizeTextType="uniform"
+                    app:layout_constraintBottom_toBottomOf="@+id/img6"
+                    app:layout_constraintEnd_toEndOf="@+id/img6"
+                    app:layout_constraintHorizontal_bias="0.68"
+                    app:layout_constraintStart_toStartOf="@+id/img6"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:id="@+id/dica6"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginTop="-6dp"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Dica"
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    app:layout_constraintBottom_toBottomOf="@+id/img6"
+                    app:layout_constraintEnd_toEndOf="@+id/img6"
+                    app:layout_constraintHorizontal_bias="0.881"
+                    app:layout_constraintStart_toStartOf="@+id/img6"
+                    app:layout_constraintTop_toBottomOf="@+id/descri6"
+                    app:layout_constraintVertical_bias="0.0">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/img7"
+                    android:layout_width="0dp"
+                    android:layout_height="155dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.589"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/img6"
+                    app:srcCompat="@drawable/btamarelo" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Dica 7"
+                    android:textColor="#E8BF70"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/img7"
+                    app:layout_constraintEnd_toEndOf="@+id/img7"
+                    app:layout_constraintStart_toStartOf="@+id/img7"
+                    app:layout_constraintTop_toTopOf="@+id/img7"
+                    app:layout_constraintVertical_bias="0.1">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/descri7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="A Comunicação é de extrema importância"
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    android:autoSizeTextType="uniform"
+                    app:layout_constraintBottom_toBottomOf="@+id/img7"
+                    app:layout_constraintEnd_toEndOf="@+id/img7"
+                    app:layout_constraintHorizontal_bias="0.428"
+                    app:layout_constraintStart_toStartOf="@+id/img7"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:id="@+id/dica7"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginTop="-6dp"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Dica"
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    app:layout_constraintBottom_toBottomOf="@+id/img7"
+                    app:layout_constraintEnd_toEndOf="@+id/img7"
+                    app:layout_constraintHorizontal_bias="0.881"
+                    app:layout_constraintStart_toStartOf="@+id/img7"
+                    app:layout_constraintTop_toBottomOf="@+id/descri7"
+                    app:layout_constraintVertical_bias="0.0">
+
+                </Button>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

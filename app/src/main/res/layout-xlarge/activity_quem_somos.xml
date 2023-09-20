@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFDF9"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFDF9"
+        android:gravity="fill"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:background="@drawable/menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="141dp"
+                    android:layout_height="83dp"
+                    android:layout_marginLeft="-25dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/logo" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="175dp"
+                    android:layout_height="83dp"
+                    android:layout_marginLeft="-30dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/adlery"
+                    android:gravity="center"
+                    android:text="BRINK+"
+                    android:textColor="#2E0084"
+                    android:textSize="40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/menu"
+                    app:layout_constraintHorizontal_bias="0.027"
+                    app:layout_constraintStart_toEndOf="@+id/imageView3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="70dp"
+                    android:layout_height="83dp"
+                    android:src="@drawable/ic_baseline_menu_24"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.965"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+
+                <ImageView
+                    android:id="@+id/gotas"
+                    android:layout_width="0dp"
+                    android:layout_height="68dp"
+                    android:layout_marginStart="50sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/textView9"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.021"
+                    app:srcCompat="@drawable/gotas" />
+
+                <ImageView
+                    android:id="@+id/gotas2"
+                    android:layout_width="0dp"
+                    android:layout_height="68dp"
+                    android:layout_marginEnd="50dp"
+                    android:rotationY="180"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView9"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.021"
+                    app:srcCompat="@drawable/gotas" />
+
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="0dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginRight="200dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="QuEm SoMoS"
+                    android:textAllCaps="false"
+                    android:textColor="#454040"
+                    android:textSize="30sp"
+                    app:layout_constraintVertical_bias="0.022"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="0dp"
+                    android:layout_height="1950dp"
+                    android:layout_margin="20dp"
+                    app:layout_constraintVertical_bias="0.01"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9"
+                    app:srcCompat="@drawable/borda_quemsomos" />
+
+                <TextView
+                    android:id="@+id/parte1"
+                    android:layout_width="0dp"
+                    android:layout_margin="45dp"
+                    android:layout_height="550dp"
+                    android:fontFamily="@font/bryndan"
+                    android:autoSizeTextType="uniform"
+                    android:lineHeight="30sp"
+                    android:text="      Somos um grupo de estudantes do Instituto Federal de São Paulo Campus Campinas e o nosso projeto foi desenvolvido com o intuito de ajudar especialmente crianças que possuem deficiência intelectual ou que apresentam apenas uma maior dificuldade em se desenvolver no seu raciocínio lógico."
+                    android:textColor="#201F1F"
+                    android:textStyle="normal"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.467"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+                <TextView
+                    android:id="@+id/parte2"
+                    android:layout_width="0dp"
+                    android:layout_margin="45dp"
+                    android:layout_height="200dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:autoSizeTextType="uniform"
+                    android:lineHeight="30sp"
+                    android:text="    Procuramos proporcionar à criança um aprendizado simplificado e divertido, buscando sempre entretê-la e atraí-la da melhor forma."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.467"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/parte1" />
+
+                <TextView
+                    android:id="@+id/parte3"
+                    android:layout_width="0dp"
+                    android:layout_margin="45dp"
+                    android:layout_height="600dp"                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:autoSizeTextType="uniform"
+                    android:lineHeight="30sp"
+                    android:text="   O nosso aplicativo Brink+ traz meios de ensino através de tutoriais de brinquedos sensoriais e vídeos educativos, desde ações do dia-a-dia, como também relacionados ao meio ambiente e músicas infantis. Além disso, há também uma aba elaborada para os pais ou responsáveis, onde será possível acessar dicas para melhorar o comportamento e concentração da criança, e outra aba para explicar o que é DI (Deficiência Intelectual)."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.467"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/parte2" />
+
+                <TextView
+                    android:id="@+id/parte4"
+                    android:layout_width="0dp"
+                    android:layout_margin="45dp"
+                    android:layout_height="100dp"                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:autoSizeTextType="uniform"
+                    android:lineHeight="30sp"
+                    android:text="    Se você quiser, pode também acessar o nosso site clicando:"
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.467"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/parte3" />
+
+                <TextView
+                    android:id="@+id/link"
+                    android:layout_width="0dp"
+                    android:layout_margin="45dp"
+                    android:layout_height="80dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:gravity="center"
+                    android:text="@string/hyperlink"
+                    android:textColor="#D6417D"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.467"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/parte4" />
+
+                <TextView
+                    android:id="@+id/parte6"
+                    android:layout_width="0dp"
+                    android:layout_margin="45dp"
+                    android:layout_height="100dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="   Esperamos que desfrute e faça bom proveito do nosso aplicativo!"
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.467"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/link" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

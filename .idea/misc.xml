@@ -1,0 +1,168 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1715" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/borda_acoes.xml" value="0.208" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/borda_quemsomos.xml" value="0.208" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/borda_rosa.xml" value="0.2105" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/border_image.xml" value="0.2095" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/botao_inicial.xml" value="0.1735" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/btamarelo.xml" value="0.2045" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/btamarelo2.xml" value="0.2095" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/card_cinza.xml" value="0.2095" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/cards_iniciais.xml" value="0.1735" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/degrade_menu.xml" value="0.2115" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/grade_amarela.xml" value="0.2095" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/menu.xml" value="0.1715" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/rosa_cheio_normal.xml" value="0.206" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/font/bryndan_write.xml" value="0.234375" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/font/entrada.xml" value="0.23333333333333334" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/font/fontes.xml" value="0.234375" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/font/lobster_regular.xml" value="0.23333333333333334" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_acoes_cotidianas.xml" value="0.18" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_alfabeto.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_amigossauro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_antecessores_esucessores.xml" value="0.1808952468850946" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_banho.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_coleta.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_cuidar_meio_ambiete.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica3.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica4.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica5.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica6.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica7.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dicas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_domesticos.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_escovar_dentinhos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_fale_conosco.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_fazenda.xml" value="0.1890625" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_formas.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_jogo_das_silabas.xml" value="0.15420928402832415" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_kent.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_lado.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_mariana.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_matematica.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_menu_quem_somos.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_menu_saiba_mais.xml" value="0.15604959384352288" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_menu_tutoriais.xml" value="0.15604959384352288" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_menu_videos_educativos.xml" value="0.1675929884566054" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_musicas_educativas.xml" value="0.16" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_numeros.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_oque_edi.xml" value="0.25" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_oque_emeio_ambiente.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_origanizacao.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_palavinhas_magicas.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_preservando_natureza.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_quebra_cabeca.xml" value="0.22" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_quem_somos.xml" value="0.22" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_reciclando.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_saiba_mais.xml" value="0.1675929884566054" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_selvagens.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_tutoriais.xml" value="0.31869918699186994" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_videos_educativos.xml" value="0.21177741761210156" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_vocabulario.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-sw600dp/activity_menu.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-v26/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_alfabeto_divertido.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_antecessores_esucessores.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_caixa_curiosa.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_jogo_da_velha.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_jogo_das_decisoes.xml" value="0.1" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_jogo_das_emocoes.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_jogo_das_silabas.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_main.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_menu.xml" value="0.128" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_menu_quem_somos.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_menu_saiba_mais.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_menu_tutoriais.xml" value="0.128" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_menu_videos_educativos.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_quebra_cabeca.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_quem_somos.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_saiba_mais.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_tutoriais.xml" value="0.144" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout-xlarge/activity_videos_educativos.xml" value="0.1" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_alfabeto.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_alfabeto_divertido.xml" value="0.20436083796494228" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_amigossauro.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_antecessores_esucessores.xml" value="0.2" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_caixa_curiosa.xml" value="0.19292604501607716" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_dica1.xml" value="0.187426786411558" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_jogo_da_velha.xml" value="0.20436083796494228" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_jogo_das_decisoes.xml" value="0.20436083796494228" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_jogo_das_emocoes.xml" value="0.1756311745334797" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_jogo_das_silabas.xml" value="0.2" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_kent.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_menu_quem_somos.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_menu_saiba_mais.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_menu_tutoriais.xml" value="0.2" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_menu_videos_educativos.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_musicas_educativas.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_oque_edi.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_origanizacao.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_palavinhas_magicas.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_quebra_cabeca.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_quem_somos.xml" value="0.2" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_saiba_mais.xml" value="0.2314410480349345" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_tutoriais.xml" value="0.2518363064008394" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/activity_videos_educativos.xml" value="0.2" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Aplicativo-de-PI-master/app/src/main/res/layout/jogo_da_velha.xml" value="0.20436083796494228" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-land/activity_escovar_dentinhos.xml" value="0.2118270079435128" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_antecessores_esucessores.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_dica1.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_dica2.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_dica3.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_dica4.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_dica5.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_dica6.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_dica7.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_dicas.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_jogo_das_decisoes.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_quebra_cabeca.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_quem_somos.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_tutoriais.xml" value="0.125" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout-xlarge/activity_videos_educativos.xml" value="0.1" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_acoes_cotidianas.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_alfabeto.xml" value="0.1" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_antecessores_esucessores.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_caixa_curiosa.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_dica1.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_dica2.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_dica3.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_dica4.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_dica5.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_dica6.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_dica7.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_dicas.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_escovar_dentinhos.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_jogo_da_velha.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_jogo_das_decisoes.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_jogo_das_emocoes.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_musicas_educativas.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_quem_somos.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_tutoriais.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_videos_educativos.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/prado/AndroidStudioProjects/Autismo-master/app/src/main/res/layout/activity_vocabulario.xml" value="0.20521590423257802" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.20521590423257802" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

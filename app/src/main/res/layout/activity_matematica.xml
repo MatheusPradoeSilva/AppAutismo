@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFDF9"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFDF9"
+        android:gravity="fill"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1470dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="1820dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="410dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-1dp"
+                    android:background="@drawable/menu"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.002">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="111dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-25dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/logo" />
+
+                <TextView
+                    android:layout_width="108dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:fontFamily="@font/adlery"
+                    android:gravity="center"
+                    android:text="BRINK+"
+                    android:textColor="#2E0084"
+                    android:textSize="40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.182"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0">
+
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="70dp"
+                    android:layout_height="41dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="-40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.997"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+
+                <ImageView
+                    android:id="@+id/gotas"
+                    android:layout_width="70dp"
+                    android:layout_height="68dp"
+                    android:layout_marginLeft="90sp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintEnd_toStartOf="@+id/textView9"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/gotas" />
+
+                <ImageView
+                    android:id="@+id/gotas2"
+                    android:layout_width="70dp"
+                    android:layout_height="68dp"
+                    android:layout_marginLeft="-30sp"
+                    android:layout_marginTop="32dp"
+                    android:rotationY="180"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView9"
+                    app:layout_constraintTop_toBottomOf="@+id/menu"
+                    app:srcCompat="@drawable/gotas" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="MaTeMáTiCa"
+                    android:textAllCaps="false"
+                    android:textColor="#454040"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imgformas"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button">
+
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/imgformas"
+                    android:layout_width="326dp"
+                    android:layout_height="426dp"
+                    android:layout_marginTop="132dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.458"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/borda_acoes" />
+
+                <TextView
+                    android:id="@+id/textformas"
+                    android:layout_width="250dp"
+                    android:layout_height="99dp"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Aprenda as formas geométricas com Pocoyo"
+                    android:textColor="#E8BF70"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toTopOf="@+id/formas"
+                    app:layout_constraintEnd_toEndOf="@+id/imgformas"
+                    app:layout_constraintStart_toStartOf="@+id/imgformas"
+                    app:layout_constraintTop_toTopOf="@+id/imgformas"
+                    app:layout_constraintVertical_bias="0.75">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/formas"
+                    android:layout_width="311dp"
+                    android:layout_height="151dp"
+                    android:layout_marginBottom="8dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toTopOf="@+id/descriformas"
+                    app:layout_constraintEnd_toEndOf="@+id/imgformas"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/imgformas" />
+
+                <TextView
+                    android:id="@+id/descriformas"
+                    android:layout_width="282dp"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Nesse vídeo nosso amiguinho Elmo e seus colegas vão..."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgformas"
+                    app:layout_constraintEnd_toEndOf="@+id/imgformas"
+                    app:layout_constraintStart_toStartOf="@+id/imgformas"
+                    app:layout_constraintTop_toTopOf="@+id/imgformas"
+                    app:layout_constraintVertical_bias="0.916" />
+
+                <ImageView
+                    android:id="@+id/imgkent"
+                    android:layout_width="326dp"
+                    android:layout_height="386dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.494"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgformas"
+                    app:srcCompat="@drawable/borda_quemsomos" />
+
+
+                <TextView
+                    android:id="@+id/textkent"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="44dp"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Arrumando o quarto com Kent"
+                    android:textColor="#D6417D"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgkent"
+                    app:layout_constraintStart_toStartOf="@+id/imgkent"
+                    app:layout_constraintTop_toTopOf="@+id/imgkent">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/kent"
+                    android:layout_width="311dp"
+                    android:layout_height="151dp"
+                    android:layout_marginTop="72dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgkent"
+                    app:layout_constraintHorizontal_bias="0.266"
+                    app:layout_constraintStart_toStartOf="@+id/imgkent"
+                    app:layout_constraintTop_toTopOf="@+id/textkent" />
+
+                <TextView
+                    android:id="@+id/descrikent"
+                    android:layout_width="282dp"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Aqui vamos fazer uma aventura com... "
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgkent"
+                    app:layout_constraintEnd_toEndOf="@+id/imgkent"
+                    app:layout_constraintStart_toStartOf="@+id/imgkent"
+                    app:layout_constraintTop_toBottomOf="@+id/kent" />
+
+                <ImageView
+                    android:id="@+id/imgnum"
+                    android:layout_width="326dp"
+                    android:layout_height="386dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.552"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgkent"
+                    app:srcCompat="@drawable/borda_acoes" />
+
+                <TextView
+                    android:id="@+id/textnum"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="76dp"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Canção dos Números"
+                    android:textColor="#E8BF70"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgnum"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/imgnum"
+                    app:layout_constraintTop_toTopOf="@+id/imgnum" />
+
+
+                <ImageView
+                    android:id="@+id/num"
+                    android:layout_width="311dp"
+                    android:layout_height="151dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgnum"
+                    app:layout_constraintHorizontal_bias="0.2"
+                    app:layout_constraintStart_toStartOf="@+id/imgnum"
+                    app:layout_constraintTop_toBottomOf="@+id/textnum" />
+
+                <TextView
+                    android:id="@+id/descrinum"
+                    android:layout_width="282dp"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Aqui vamos fazer uma aventura com a turminha..."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgnum"
+                    app:layout_constraintEnd_toEndOf="@+id/num"
+                    app:layout_constraintStart_toStartOf="@+id/imgnum"
+                    app:layout_constraintTop_toBottomOf="@+id/num" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

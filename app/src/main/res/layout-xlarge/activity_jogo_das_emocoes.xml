@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFDF9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFDF9"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:background="@drawable/menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="141dp"
+                android:layout_height="83dp"
+                android:layout_marginLeft="-25dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="175dp"
+                android:layout_height="83dp"
+                android:layout_marginLeft="-30dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/adlery"
+                android:gravity="center"
+                android:text="BRINK+"
+                android:textColor="#2E0084"
+                android:textSize="40dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/menu"
+                app:layout_constraintHorizontal_bias="0.027"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="70dp"
+                android:layout_height="83dp"
+                android:src="@drawable/ic_baseline_menu_24"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.965"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/gotas"
+                android:layout_width="0dp"
+                android:layout_height="88dp"
+                android:layout_marginLeft="40sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textView8"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.011"
+                app:srcCompat="@drawable/gotas" />
+
+            <ImageView
+                android:id="@+id/gotas2"
+                android:layout_width="0dp"
+                android:layout_height="88dp"
+                android:layout_marginRight="40dp"
+                android:rotationY="180"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.011"
+                app:srcCompat="@drawable/gotas" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginRight="110dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center_horizontal"
+                android:text="Jogo das Emoções"
+                android:textAllCaps="false"
+                android:textColor="#454040"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.562"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_margin="40dp"
+                android:layout_marginTop="28dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center"
+                android:text="Este é um brinquedo bastante divertido para as crianças, e também interessante, pois ele ajudará o pequeno a formar e interpretar reações, sentimentos e as próprias emoções de cada indivíduo.  Preste agora muita atenção no tutorial!"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.004"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="0dp"
+                android:layout_height="390dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView16"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="0dp"
+                android:layout_height="340dp"
+                android:fontFamily="@font/bryndan"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text=" PASSO 2: pegue um outro eva para desenhar o rosto do nosso personagem. Depois de desenhá-lo, recorte-o e cole-o na placa de papelão, pegue o velcro e corte-o em pequenos quadradinhos. Em seguida, cole eles no rosto antes feito, utilizando a cola-quente. Você pode usar a caneta hidrográfica para fazer detalhes no seu brinquedo."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+                app:layout_constraintEnd_toEndOf="@+id/imageView23"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="@+id/imageView23"
+                app:layout_constraintTop_toTopOf="@+id/imageView23" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="0dp"
+                android:layout_height="420dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView31"
+                app:layout_constraintBottom_toBottomOf="@id/linearLayout2"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:fontFamily="@font/bryndan"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text=" PASSO 1: pegue a folha de eva e encape a placa de papelão, utilizando a cola-quente para fixá-lo. Aqui não precisa necessariamente ser o eva, mas qualquer outro papel que queira usar para encapar o papelão e deixá-lo com uma aparência mais alegre."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+                app:layout_constraintEnd_toEndOf="@+id/imageView17"
+                app:layout_constraintHorizontal_bias="0.469"
+                app:layout_constraintStart_toStartOf="@+id/imageView17"
+                app:layout_constraintTop_toTopOf="@+id/imageView17"
+                app:layout_constraintVertical_bias="0.187" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="55dp"
+                android:src="@drawable/jogo_emocoes3"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+                app:layout_constraintEnd_toEndOf="@+id/imageView31"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="@+id/imageView31"
+                app:layout_constraintTop_toTopOf="@+id/imageView31"
+                app:layout_constraintVertical_bias="0.5"/>
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="55dp"
+                android:src="@drawable/jogo_emocoes2"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+                app:layout_constraintEnd_toEndOf="@+id/imageView16"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="@+id/imageView16"
+                app:layout_constraintTop_toTopOf="@+id/imageView16"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="330dp"
+                android:layout_height="350dp"
+                android:layout_margin="40dp"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:fontFamily="@font/bryndan"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text=" MATERIAIS: para a produção deste brinquedo, você precisará: uma placa de papelão; folhas de eva (das cores que desejar); tesoura; caneta hidrográfica; uma bandeja de isopor; cola-quente; e por fim, velcro."
+                android:textColor="#000000"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                app:layout_constraintHorizontal_bias="0.457"
+                app:layout_constraintStart_toStartOf="@+id/imageView5"
+                app:layout_constraintTop_toTopOf="@+id/imageView5"
+                app:layout_constraintVertical_bias="0.418" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="340dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView14"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="330dp"
+                android:layout_height="340dp"
+                android:visibility="invisible"
+                android:layout_margin="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_margin="55dp"
+                android:src="@drawable/jogo_emocoes1"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+                app:layout_constraintEnd_toEndOf="@+id/imageView14"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="@+id/imageView14"
+                app:layout_constraintTop_toTopOf="@+id/imageView14"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="0dp"
+                android:layout_height="440dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView33"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="0dp"
+                android:layout_height="350dp"
+                android:fontFamily="@font/bryndan"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text=" PASSO 3: pegue um outro eva para desenhar o rosto do nosso personagem. Depois de desenhá-lo, recorte-o e cole-o na placa de papelão, pegue o velcro e corte-o em pequenos quadradinhos. Em seguida, cole eles no rosto antes feito, utilizando a cola-quente. Você pode usar a caneta hidrográfica para fazer detalhes no seu brinquedo."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+                app:layout_constraintEnd_toEndOf="@+id/imageView30"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="@+id/imageView30"
+                app:layout_constraintTop_toTopOf="@+id/imageView30"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="90dp"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text="RESULTADO"
+                android:textAllCaps="false"
+                android:textColor="#454040"
+                android:textSize="38sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.449"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView30">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="0dp"
+                android:layout_height="550dp"
+                android:layout_margin="25dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center"
+                android:text="E nosso brinquedo está finalizado! Agora é só dar ele à criança e aproveitar o momento agradável de aprendizado do seu filho!   Caso queira, você pode desenhar mais de um tipo de expressão, já que a ideia é ensinar os diferentes tipos de emoções que as pessoas têm."
+                android:textAllCaps="false"
+                android:textColor="#454040"
+                android:textSize="60sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17"
+                app:layout_constraintVertical_bias="0.0">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="0dp"
+                android:layout_height="350dp"
+                android:layout_margin="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.449"
+                app:layout_constraintTop_toBottomOf="@+id/imageView27"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/jogo_emocoes6" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="0dp"
+                android:layout_height="350dp"
+                android:layout_margin="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/jogo_emocoes5" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="0dp"
+                android:layout_height="350dp"
+                android:layout_margin="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.449"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView28"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/jogo_emocoes7" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="330dp"
+                android:layout_height="350dp"
+                android:layout_margin="40dp"
+                android:visibility="invisible"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView17"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="55dp"
+                android:src="@drawable/jogo_emocoes4"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView30"
+                app:layout_constraintEnd_toEndOf="@+id/imageView33"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="@+id/imageView33"
+                app:layout_constraintTop_toTopOf="@+id/imageView33"
+                app:layout_constraintVertical_bias="0.5"/>
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="330dp"
+                android:layout_height="350dp"
+                android:layout_margin="40dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView23"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/btamarelo" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

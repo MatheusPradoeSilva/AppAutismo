@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFDF9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFDF9"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/menu"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="SpeakableTextPresentCheck"/>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="111dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-25dp"
+                    android:layout_marginTop="-50dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/logo" />
+
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="108dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:fontFamily="@font/adlery"
+                    android:text="BRINK+"
+                    android:textColor="#2E0084"
+                    android:textSize="40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toStartOf="@+id/menu"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/imageView3"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="70dp"
+                    android:layout_height="41dp"
+                    android:layout_marginStart="300dp"
+                    android:layout_marginTop="-40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.997"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.816"
+                    app:srcCompat="@drawable/ic_baseline_menu_24" />
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="52dp"
+                    android:layout_marginRight="110dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="TuToRiAis"
+                    android:textAllCaps="false"
+                    android:textColor="#454040"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintTop_toBottomOf="@+id/button">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/button2"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.536"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView11"
+                    app:srcCompat="@drawable/btamarelo">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="169dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/antecessores"
+                    android:translationZ="90dp"
+                    app:layout_constraintHorizontal_bias="0.107"
+                    app:layout_constraintBottom_toBottomOf="@+id/button2"
+                    app:layout_constraintEnd_toEndOf="@+id/button2"
+                    app:layout_constraintStart_toStartOf="@+id/button2"
+                    app:layout_constraintTop_toTopOf="@+id/button2"
+                    app:layout_constraintVertical_bias="0.7" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Antecessores e Sucessores"
+                    android:textAllCaps="true"
+                    android:textColor="#E8BF70"
+                    android:textSize="20dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button2"
+                    app:layout_constraintEnd_toEndOf="@+id/button2"
+                    app:layout_constraintHorizontal_bias="0.942"
+                    app:layout_constraintStart_toEndOf="@+id/imageView7"
+                    app:layout_constraintTop_toTopOf="@+id/button2"
+                    app:layout_constraintVertical_bias="0.117" />
+
+                <Button
+                    android:id="@+id/ante"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Mais..."
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    app:layout_constraintBottom_toBottomOf="@+id/button2"
+                    app:layout_constraintEnd_toEndOf="@+id/button2"
+                    app:layout_constraintStart_toEndOf="@+id/imageView7"
+                    app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/button3"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.536"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:background="@drawable/cards_iniciais"
+                    app:layout_constraintTop_toBottomOf="@+id/button2">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="169dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/jogo_das_silabas5"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button3"
+                    app:layout_constraintEnd_toEndOf="@+id/button3"
+                    app:layout_constraintHorizontal_bias="0.107"
+                    app:layout_constraintStart_toStartOf="@+id/button3"
+                    app:layout_constraintTop_toTopOf="@+id/button3"
+                    app:layout_constraintVertical_bias="0.7" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Jogo das sílabas"
+                    android:textAllCaps="true"
+                    android:textColor="#D6417D"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button3"
+                    app:layout_constraintEnd_toEndOf="@+id/button3"
+                    app:layout_constraintHorizontal_bias="0.942"
+                    app:layout_constraintStart_toEndOf="@+id/imageView"
+                    app:layout_constraintTop_toTopOf="@+id/button3"
+                    app:layout_constraintVertical_bias="0.117" />
+
+                <Button
+                    android:id="@+id/silabas"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Mais..."
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    app:layout_constraintBottom_toBottomOf="@+id/button3"
+                    app:layout_constraintEnd_toEndOf="@+id/button3"
+                    app:layout_constraintHorizontal_bias="0.285"
+                    app:layout_constraintStart_toEndOf="@+id/imageView"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                </Button>
+
+
+                <ImageView
+                    android:id="@+id/button4"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.536"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:background="@drawable/btamarelo"
+                    app:layout_constraintTop_toBottomOf="@+id/button3">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="169dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/jogo_da_velha5"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button4"
+                    app:layout_constraintEnd_toEndOf="@+id/button4"
+                    app:layout_constraintHorizontal_bias="0.107"
+                    app:layout_constraintStart_toStartOf="@+id/button4"
+                    app:layout_constraintTop_toTopOf="@+id/button4"
+                    app:layout_constraintVertical_bias="0.7" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Jogo da velha"
+                    android:textAllCaps="true"
+                    android:textColor="#E8BF70"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button4"
+                    app:layout_constraintEnd_toEndOf="@+id/button4"
+                    app:layout_constraintHorizontal_bias="0.942"
+                    app:layout_constraintStart_toEndOf="@+id/imageView8"
+                    app:layout_constraintTop_toTopOf="@+id/button4"
+                    app:layout_constraintVertical_bias="0.117" />
+
+                <Button
+                    android:id="@+id/velha"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
+                    android:text="Ver Mais..."
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button4"
+                    app:layout_constraintEnd_toEndOf="@+id/button4"
+                    app:layout_constraintStart_toEndOf="@+id/imageView8"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+                </Button>
+
+
+                <ImageView
+                    android:id="@+id/button5"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.536"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:background="@drawable/cards_iniciais"
+                    app:layout_constraintTop_toBottomOf="@+id/button4">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="169dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/quebra_cabeca4"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button5"
+                    app:layout_constraintEnd_toEndOf="@+id/button5"
+                    app:layout_constraintHorizontal_bias="0.107"
+                    app:layout_constraintStart_toStartOf="@+id/button5"
+                    app:layout_constraintTop_toTopOf="@+id/button5"
+                    app:layout_constraintVertical_bias="0.7" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:textAllCaps="true"
+                    android:text="Quebra cabeça"
+                    android:textColor="#D6417D"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button5"
+                    app:layout_constraintEnd_toEndOf="@+id/button5"
+                    app:layout_constraintHorizontal_bias="0.942"
+                    app:layout_constraintStart_toEndOf="@+id/imageView13"
+                    app:layout_constraintTop_toTopOf="@+id/button5"
+                    app:layout_constraintVertical_bias="0.117" />
+
+                <Button
+                    android:id="@+id/quebra"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_margin="20dp"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Mais..."
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    app:layout_constraintBottom_toBottomOf="@+id/button5"
+                    app:layout_constraintEnd_toEndOf="@+id/button5"
+                    app:layout_constraintHorizontal_bias="0.285"
+                    app:layout_constraintStart_toEndOf="@+id/imageView13"
+                    app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/button6"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.536"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:background="@drawable/btamarelo"
+                    app:layout_constraintTop_toBottomOf="@+id/button5">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="169dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/jogo_emocoes7"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button6"
+                    app:layout_constraintEnd_toEndOf="@+id/button6"
+                    app:layout_constraintHorizontal_bias="0.107"
+                    app:layout_constraintStart_toStartOf="@+id/button6"
+                    app:layout_constraintTop_toTopOf="@+id/button6"
+                    app:layout_constraintVertical_bias="0.7" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Jogo das emoções"
+                    android:textAllCaps="true"
+                    android:textColor="#E8BF70"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button6"
+                    app:layout_constraintEnd_toEndOf="@+id/button6"
+                    app:layout_constraintHorizontal_bias="0.942"
+                    app:layout_constraintStart_toEndOf="@+id/imageView9"
+                    app:layout_constraintTop_toTopOf="@+id/button6"
+                    app:layout_constraintVertical_bias="0.117" />
+
+                <Button
+                    android:id="@+id/emocoes"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
+                    android:text="Ver Mais..."
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button6"
+                    app:layout_constraintEnd_toEndOf="@+id/button6"
+                    app:layout_constraintStart_toEndOf="@+id/imageView9"
+                    app:layout_constraintTop_toBottomOf="@+id/textView14">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/button7"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.536"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:background="@drawable/cards_iniciais"
+                    app:layout_constraintTop_toBottomOf="@+id/button6">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="169dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/alfabeto_divertido6"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button7"
+                    app:layout_constraintEnd_toEndOf="@+id/button7"
+                    app:layout_constraintHorizontal_bias="0.107"
+                    app:layout_constraintStart_toStartOf="@+id/button7"
+                    app:layout_constraintTop_toTopOf="@+id/button7"
+                    app:layout_constraintVertical_bias="0.7" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:textAllCaps="true"
+                    android:text="Alfabeto Divertido"
+                    android:textColor="#D6417D"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button7"
+                    app:layout_constraintEnd_toEndOf="@+id/button7"
+                    app:layout_constraintHorizontal_bias="0.942"
+                    app:layout_constraintStart_toEndOf="@+id/imageView15"
+                    app:layout_constraintTop_toTopOf="@+id/button7"
+                    app:layout_constraintVertical_bias="0.117" />
+
+                <Button
+                    android:id="@+id/alfabeto"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
+                    android:text="Ver Mais..."
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button7"
+                    app:layout_constraintEnd_toEndOf="@+id/button7"
+                    app:layout_constraintHorizontal_bias="0.285"
+                    app:layout_constraintStart_toEndOf="@+id/imageView15"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15">
+
+                </Button>
+
+
+                <ImageView
+                    android:id="@+id/button8"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.536"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:background="@drawable/btamarelo"
+                    app:layout_constraintTop_toBottomOf="@+id/button7">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="169dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/decisoes5"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button8"
+                    app:layout_constraintEnd_toEndOf="@+id/button8"
+                    app:layout_constraintStart_toStartOf="@+id/button8"
+                    app:layout_constraintTop_toTopOf="@+id/button8"
+                    app:layout_constraintHorizontal_bias="0.107"
+                    app:layout_constraintVertical_bias="0.7" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Jogo das decisões"
+                    android:textAllCaps="true"
+                    android:textColor="#E8BF70"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button8"
+                    app:layout_constraintEnd_toEndOf="@+id/button8"
+                    app:layout_constraintHorizontal_bias="0.942"
+                    app:layout_constraintStart_toEndOf="@+id/imageView2"
+                    app:layout_constraintTop_toTopOf="@+id/button8"
+                    app:layout_constraintVertical_bias="0.117" />
+
+                <Button
+                    android:id="@+id/decisoes"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
+                    android:text="Ver Mais..."
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button8"
+                    app:layout_constraintEnd_toEndOf="@+id/button8"
+                    app:layout_constraintStart_toEndOf="@+id/imageView2"
+                    app:layout_constraintTop_toBottomOf="@+id/textView17">
+
+                </Button>
+
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.536"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:background="@drawable/cards_iniciais"
+                    app:layout_constraintTop_toBottomOf="@+id/button8">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="169dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/caixa5"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button9"
+                    app:layout_constraintEnd_toEndOf="@+id/button9"
+                    app:layout_constraintHorizontal_bias="0.107"
+                    app:layout_constraintStart_toStartOf="@+id/button9"
+                    app:layout_constraintTop_toTopOf="@+id/button9"
+                    app:layout_constraintVertical_bias="0.7" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:textAllCaps="true"
+                    android:text="Caixa curiosa"
+                    android:textColor="#D6417D"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button9"
+                    app:layout_constraintEnd_toEndOf="@+id/button9"
+                    app:layout_constraintHorizontal_bias="0.942"
+                    app:layout_constraintStart_toEndOf="@+id/imageView18"
+                    app:layout_constraintTop_toTopOf="@+id/button9"
+                    app:layout_constraintVertical_bias="0.117" />
+
+                <Button
+                    android:id="@+id/caixa"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
+                    android:text="Ver Mais..."
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button9"
+                    app:layout_constraintEnd_toEndOf="@+id/button9"
+                    app:layout_constraintHorizontal_bias="0.285"
+                    app:layout_constraintStart_toEndOf="@+id/imageView18"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/gotas"
+                    android:layout_width="0dp"
+                    android:layout_height="68dp"
+                    android:layout_marginLeft="50sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/textView11"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.041"
+                    app:srcCompat="@drawable/gotas" />
+
+                <ImageView
+                    android:id="@+id/gotas2"
+                    android:layout_width="0dp"
+                    android:layout_height="68dp"
+                    android:layout_marginRight="50dp"
+                    android:rotationY="180"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView11"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.041"
+                    app:srcCompat="@drawable/gotas" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

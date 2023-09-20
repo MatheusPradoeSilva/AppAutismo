@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFDF9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFDF9"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="SpeakableTextPresentCheck"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="111dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="-25dp"
+                android:layout_marginTop="-50dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="@+id/button"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/logo" />
+
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="108dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="@font/adlery"
+                android:text="BRINK+"
+                android:textColor="#2E0084"
+                android:textSize="40dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toStartOf="@+id/menu"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="1.0">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="70dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="-40dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.997"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="0.816"
+                app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+            <ImageView
+                android:id="@+id/gotas"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="50sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textView8"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.011"
+                app:srcCompat="@drawable/gotas" />
+
+            <ImageView
+                android:id="@+id/gotas2"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_marginRight="50dp"
+                android:rotationY="180"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.011"
+                app:srcCompat="@drawable/gotas" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginRight="130dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center_horizontal"
+                android:text="JoGo dAs SiLaBaS"
+                android:textAllCaps="false"
+                android:textColor="#454040"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.562"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="0dp"
+                android:layout_height="340dp"
+                android:layout_margin="40dp"
+                android:layout_marginTop="28dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center"
+                android:text="Assim como o brinquedo “Alfabeto Divertido” apresentado anteriormente, ele tem o propósito de ensinar a criança a formar as palavras corretamente. Há também desenhos que serão utilizados como base para a criança, onde ela terá que escrever o nome daquele objeto ou animal que ali está. Agora fique atento ao passo-a-passo que deve seguir:"
+                android:textColor="#000000"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.004"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="0dp"
+                android:layout_height="450dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView16"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/cards_iniciais" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="0dp"
+                android:layout_height="370dp"
+                android:fontFamily="@font/bryndan"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text="PASSO 2: depois com o enrosque das tampinhas cole-os com a cola-quente e também pedaços de velcro em cada linha formada por estes enrosques. Em seguida, você pode fazer desenhos, imprimir imagens ou recortar elas de revistas. Estes desenhos podem ser de animais, objetos, frutas e/ou vestimentas, que possam servir de referência para a criança, recorte e cole um papelão atrás de cada um dos desenhos ou imagens, para que eles fiquem mais rígidos."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+                app:layout_constraintEnd_toEndOf="@+id/imageView23"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="@+id/imageView23"
+                app:layout_constraintTop_toTopOf="@+id/imageView23" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="0dp"
+                android:layout_height="440dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView31"
+                app:layout_constraintBottom_toBottomOf="@id/linearLayout2"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/cards_iniciais" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="0dp"
+                android:layout_height="350dp"
+                android:fontFamily="@font/bryndan"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text="PASSO 1: corte um retângulo de papelão (tamanho desejado). Encape a placa de papelão com o eva, ou qualquer outro que quiser usar (ex: cartolina). Não se esqueça que para isso você usará a cola-quente! desenhe (no eva) letras formando a palavra “palavras”. Depois disso, basta recortá-las. Cole elas na sua placa de papelão, e decore-a da forma como preferir."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+                app:layout_constraintEnd_toEndOf="@+id/imageView17"
+                app:layout_constraintHorizontal_bias="0.469"
+                app:layout_constraintStart_toStartOf="@+id/imageView17"
+                app:layout_constraintTop_toTopOf="@+id/imageView17"
+                app:layout_constraintVertical_bias="0.187" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="55dp"
+                android:src="@drawable/jogo_das_silabas3"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+                app:layout_constraintEnd_toEndOf="@+id/imageView31"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="@+id/imageView31"
+                app:layout_constraintTop_toTopOf="@+id/imageView31"
+                app:layout_constraintVertical_bias="0.5"/>
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="55dp"
+                android:src="@drawable/jogo_das_silabas2"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+                app:layout_constraintEnd_toEndOf="@+id/imageView16"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="@+id/imageView16"
+                app:layout_constraintTop_toTopOf="@+id/imageView16"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="330dp"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/cards_iniciais" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:fontFamily="@font/bryndan"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text="MATERIAIS: começaremos então dizendo o que você precisa ter para fazer este brinquedo: folha de eva simples ou com glitter; papelão; pincel; tinta ou lápis-de-cor ; tesoura; cola-quente; canetas; velcro; e tampinhas de onde preferir, juntamente com o enrosque. "
+                android:textColor="#000000"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                app:layout_constraintHorizontal_bias="0.457"
+                app:layout_constraintStart_toStartOf="@+id/imageView5"
+                app:layout_constraintTop_toTopOf="@+id/imageView5"
+                app:layout_constraintVertical_bias="0.418" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="340dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView14"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/cards_iniciais" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="330dp"
+                android:layout_height="200dp"
+                android:layout_margin="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/cards_iniciais" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_margin="55dp"
+                android:src="@drawable/jogo_das_silabas1"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+                app:layout_constraintEnd_toEndOf="@+id/imageView14"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="@+id/imageView14"
+                app:layout_constraintTop_toTopOf="@+id/imageView14"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="0dp"
+                android:layout_height="400dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView33"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/cards_iniciais" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="0dp"
+                android:layout_height="350dp"
+                android:fontFamily="@font/bryndan"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text="PASSO 3: pegue a outra parte do velcro (cortado em quadradinhos) e cole na parte de trás do papelão que contém o desenho.Depois use as próprias tampinhas para desenhar círculos no eva, e em cada um, escreva as sílabas correspondentes da palavra que escolheu. Em seguida recorte os círculos e cole na parte superior das tampas."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+                app:layout_constraintEnd_toEndOf="@+id/imageView30"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="@+id/imageView30"
+                app:layout_constraintTop_toTopOf="@+id/imageView30"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="90dp"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text="RESULTADO"
+                android:textAllCaps="false"
+                android:textColor="#454040"
+                android:textSize="38sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.449"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView30">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="0dp"
+                android:layout_height="450dp"
+                android:layout_margin="25dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center"
+                android:text="Finalmente o nosso brinquedo está pronto, e você junto com o seu filho, podem se divertir juntos formando as palavras que correspondem a cada imagem! O legal deste brinquedo também, é que é possível mudar a posição dos desenhos e ir criando novas sílabas com tampinhas para encaixar!"
+                android:textAllCaps="false"
+                android:textColor="#454040"
+                android:textSize="60sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17"
+                app:layout_constraintVertical_bias="0.0">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_margin="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/jogo_das_silabas5" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="330dp"
+                android:layout_height="200dp"
+                android:layout_margin="40dp"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView17"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/cards_iniciais" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_margin="55dp"
+                android:src="@drawable/jogo_das_silabas4"
+                android:translationZ="90sp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView30"
+                app:layout_constraintEnd_toEndOf="@+id/imageView33"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="@+id/imageView33"
+                app:layout_constraintTop_toTopOf="@+id/imageView33"
+                app:layout_constraintVertical_bias="0.5"/>
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="330dp"
+                android:layout_height="320dp"
+                android:layout_margin="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView23"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/cards_iniciais" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

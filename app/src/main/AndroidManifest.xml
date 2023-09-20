@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aplicativopi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplicativoPI"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Jogo_das_Silabas"
+            android:exported="false" />
+        <activity
+            android:name=".Antecessores_e_Sucessores"
+            android:exported="false" />
+        <activity
+            android:name=".Quebra_Cabeca"
+            android:exported="false" />
+        <activity
+            android:name=".Dica7"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dica6"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dica5"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dica4"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dica3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dica2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dica1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dicas"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".O_Que_e_DI"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lado"
+            android:exported="false" />
+        <activity
+            android:name=".Alfabeto"
+            android:exported="false" />
+        <activity
+            android:name=".Numeros"
+            android:exported="false" />
+        <activity
+            android:name=".Selvagens"
+            android:exported="false" />
+        <activity
+            android:name=".Fazenda"
+            android:exported="false"
+            />
+        <activity
+            android:name=".Domesticos"
+            android:exported="false" />
+        <activity
+            android:name=".Vocabulario"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Origanizacao"
+            android:exported="false" />
+        <activity
+            android:name=".Palavinhas_Magicas"
+            android:exported="false" />
+        <activity
+            android:name=".Kent"
+            android:exported="false" />
+        <activity
+            android:name=".Formas"
+            android:exported="false"
+             />
+        <activity
+            android:name=".Matematica"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Banho"
+            android:exported="false" />
+        <activity
+            android:name=".Coleta"
+            android:exported="false" />
+        <activity
+            android:name=".Mariana"
+            android:exported="false" />
+        <activity
+            android:name=".Amigossauro"
+            android:exported="false" />
+        <activity
+            android:name=".Musicas_Educativas"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reciclando"
+            android:exported="false" />
+        <activity
+            android:name=".Cuidar_Meio_Ambiete"
+            android:exported="false" />
+        <activity
+            android:name=".Preservando_Natureza"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Escovar_Dentinhos"
+            android:exported="false" />
+        <activity
+            android:name=".Acoes_Cotidianas"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Caixa_Curiosa"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Jogo_das_Decisoes"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Alfabeto_Divertido"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Jogo_da_Velha"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Jogo_das_Emocoes"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Menu_Quem_Somos"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Quem_Somos"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu_Tutoriais"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tutoriais"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu_Saiba_Mais"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Saiba_Mais"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu_Videos_Educativos"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Videos_Educativos"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

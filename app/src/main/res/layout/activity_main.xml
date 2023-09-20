@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFDF9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFDF9"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/menu"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="SpeakableTextPresentCheck"/>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="111dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-25dp"
+                    android:layout_marginTop="-50dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/logo" />
+
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="108dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:fontFamily="@font/adlery"
+                    android:text="BRINK+"
+                    android:textColor="#2E0084"
+                    android:textSize="40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toStartOf="@+id/menu"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/imageView3"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="70dp"
+                    android:layout_height="41dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="-40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.997"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.816"
+                    app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/crinacas"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center_horizontal"
+                    android:text="Alguns Dos Nossos Tutoriais"
+                    android:textAllCaps="true"
+                    android:textColor="#454040"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.562"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                    app:layout_constraintVertical_bias="0.0">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/button2"
+                    android:layout_width="0dp"
+                    android:layout_height="119dp"
+                    android:layout_margin="40dp"
+                    android:background="@drawable/cards_iniciais"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@id/linear"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView8"
+                    app:layout_constraintVertical_bias="0.0">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="169dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/antecessores"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button2"
+                    app:layout_constraintEnd_toEndOf="@+id/button2"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="@+id/button2"
+                    app:layout_constraintTop_toTopOf="@+id/button2"
+                    app:layout_constraintVertical_bias="0.684" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Antecessores e Sucessores"
+                    android:textColor="#D6417D"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button2"
+                    app:layout_constraintEnd_toEndOf="@+id/button2"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/imageView"
+                    app:layout_constraintTop_toTopOf="@+id/button2"
+                    app:layout_constraintVertical_bias="0.142" />
+
+                <Button
+                    android:id="@+id/ante"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Mais..."
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    app:layout_constraintBottom_toBottomOf="@+id/button2"
+                    app:layout_constraintEnd_toEndOf="@+id/button2"
+                    app:layout_constraintHorizontal_bias="0.687"
+                    app:layout_constraintStart_toEndOf="@+id/imageView"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/button5"
+                    android:layout_width="0dp"
+                    android:layout_height="119dp"
+                    android:layout_margin="40dp"
+                    android:background="@drawable/cards_iniciais"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.437"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button2"
+                    app:layout_constraintVertical_bias="0.0">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="169dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/jogo_das_silabas5"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button5"
+                    app:layout_constraintEnd_toEndOf="@+id/button5"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="@+id/button5"
+                    app:layout_constraintTop_toTopOf="@+id/button5"
+                    app:layout_constraintVertical_bias="0.631" />
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Jogo das Sílabas"
+                    android:textColor="#D6417D"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button5"
+                    app:layout_constraintEnd_toEndOf="@+id/button5"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/imageView4"
+                    app:layout_constraintTop_toTopOf="@+id/button5"
+                    app:layout_constraintVertical_bias="0.142" />
+
+                <Button
+                    android:id="@+id/silabas"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Mais..."
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    app:layout_constraintBottom_toBottomOf="@+id/button5"
+                    app:layout_constraintEnd_toEndOf="@+id/button5"
+                    app:layout_constraintHorizontal_bias="0.587"
+                    app:layout_constraintStart_toEndOf="@+id/imageView4"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5"
+                    app:layout_constraintVertical_bias="0.461"
+                    tools:ignore="TouchTargetSizeCheck">
+
+                </Button>
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Alguns Dos Nossos Vídeos"
+                    android:textAllCaps="true"
+                    android:textColor="#454040"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.487"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button5"
+                    app:layout_constraintVertical_bias="0.091">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/button6"
+                    android:layout_width="0dp"
+                    android:layout_height="119dp"
+                    android:layout_margin="40dp"
+                    android:background="@drawable/btamarelo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.469"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2"
+                    app:layout_constraintVertical_bias="0.0">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="169dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button6"
+                    app:layout_constraintEnd_toEndOf="@+id/button6"
+                    app:layout_constraintHorizontal_bias="0.042"
+                    app:layout_constraintStart_toStartOf="@+id/button6"
+                    app:layout_constraintTop_toTopOf="@+id/button6"
+                    app:layout_constraintVertical_bias="0.473" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Ações Cotidianas"
+                    android:textColor="#E8BF70"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button6"
+                    app:layout_constraintEnd_toEndOf="@+id/button6"
+                    app:layout_constraintHorizontal_bias="0.411"
+                    app:layout_constraintStart_toEndOf="@+id/imageView5"
+                    app:layout_constraintTop_toTopOf="@+id/button6"
+                    app:layout_constraintVertical_bias="0.142" />
+
+                <Button
+                    android:id="@+id/acoescotidianas"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Mais..."
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    app:layout_constraintBottom_toBottomOf="@+id/button6"
+                    app:layout_constraintEnd_toEndOf="@+id/button6"
+                    app:layout_constraintStart_toEndOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+                </Button>
+
+
+                <ImageView
+                    android:id="@+id/button7"
+                    android:layout_width="0dp"
+                    android:layout_height="119dp"
+                    android:layout_margin="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/btamarelo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button6"
+                    app:layout_constraintVertical_bias="0.538">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="169dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button7"
+                    app:layout_constraintEnd_toEndOf="@+id/button7"
+                    app:layout_constraintHorizontal_bias="0.053"
+                    app:layout_constraintStart_toStartOf="@+id/button7"
+                    app:layout_constraintTop_toTopOf="@+id/button7"
+                    app:layout_constraintVertical_bias="0.526">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Múscicas Educativas"
+                    android:textColor="#E8BF70"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button7"
+                    app:layout_constraintEnd_toEndOf="@+id/button7"
+                    app:layout_constraintHorizontal_bias="0.562"
+                    app:layout_constraintStart_toEndOf="@+id/imageView6"
+                    app:layout_constraintTop_toTopOf="@+id/button7"
+                    app:layout_constraintVertical_bias="0.142" />
+
+                <Button
+                    android:id="@+id/musica"
+                    android:layout_width="0dp"
+                    android:layout_height="47dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/botao_inicial"
+                    android:text="Ver Mais..."
+                    android:textAllCaps="false"
+                    android:textColor="#005EEF"
+                    android:textSize="21sp"
+                    android:fontFamily="@font/bryndan"
+                    app:layout_constraintBottom_toBottomOf="@+id/button7"
+                    app:layout_constraintEnd_toEndOf="@+id/button7"
+                    app:layout_constraintStart_toEndOf="@+id/imageView6"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+                </Button>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

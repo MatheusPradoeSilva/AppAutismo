@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFDF9"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFDF9"
+        android:gravity="fill"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1450dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="1820dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="410dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-1dp"
+                    android:background="@drawable/menu"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.002">
+
+                </Button>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="111dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-25dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/logo" />
+
+                <TextView
+                    android:layout_width="108dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:fontFamily="@font/adlery"
+                    android:gravity="center"
+                    android:text="BRINK+"
+                    android:textColor="#2E0084"
+                    android:textSize="40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.182"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0">
+
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="70dp"
+                    android:layout_height="41dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="-40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.997"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+                <ImageView
+                    android:id="@+id/gotas"
+                    android:layout_width="70dp"
+                    android:layout_height="68dp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.12"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/gotas" />
+
+                <ImageView
+                    android:id="@+id/gotas2"
+                    android:layout_width="70dp"
+                    android:layout_height="68dp"
+                    android:layout_marginLeft="-70sp"
+                    android:layout_marginTop="32dp"
+                    android:rotationY="180"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.894"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/menu"
+                    app:srcCompat="@drawable/gotas" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="218dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="VoCaBuLáRiO"
+                    android:textAllCaps="false"
+                    android:textColor="#454040"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imganimais"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button">
+
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/imganimais"
+                    android:layout_width="326dp"
+                    android:layout_height="386dp"
+                    android:layout_marginTop="136dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.494"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/borda_acoes" />
+
+                <TextView
+                    android:id="@+id/textanimais"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Os Animais Domésticos"
+                    android:textColor="#E8BF70"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toTopOf="@+id/animais"
+                    app:layout_constraintEnd_toEndOf="@+id/imganimais"
+                    app:layout_constraintStart_toStartOf="@+id/imganimais"
+                    app:layout_constraintTop_toTopOf="@+id/imganimais"
+                    app:layout_constraintVertical_bias="0.771">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/animais"
+                    android:layout_width="311dp"
+                    android:layout_height="151dp"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toTopOf="@+id/descrianimais"
+                    app:layout_constraintEnd_toEndOf="@+id/imganimais"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/imganimais" />
+
+                <TextView
+                    android:id="@+id/descrianimais"
+                    android:layout_width="282dp"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Nesse vídeo a criança irá aprender alguns animais..."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imganimais"
+                    app:layout_constraintEnd_toEndOf="@+id/imganimais"
+                    app:layout_constraintStart_toStartOf="@+id/imganimais"
+                    app:layout_constraintTop_toTopOf="@+id/imganimais"
+                    app:layout_constraintVertical_bias="0.916" />
+
+                <ImageView
+                    android:id="@+id/imgfazenda"
+                    android:layout_width="326dp"
+                    android:layout_height="386dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.494"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imganimais"
+                    app:srcCompat="@drawable/borda_quemsomos" />
+
+
+                <TextView
+                    android:id="@+id/textfazenda"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Os Animais da fazenda"
+                    android:textColor="#D6417D"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgfazenda"
+                    app:layout_constraintHorizontal_bias="0.357"
+                    app:layout_constraintStart_toStartOf="@+id/imgfazenda"
+                    app:layout_constraintTop_toTopOf="@+id/imgfazenda">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/fazenda"
+                    android:layout_width="311dp"
+                    android:layout_height="151dp"
+                    android:layout_marginTop="72dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgfazenda"
+                    app:layout_constraintHorizontal_bias="0.266"
+                    app:layout_constraintStart_toStartOf="@+id/imgfazenda"
+                    app:layout_constraintTop_toTopOf="@+id/textfazenda" />
+
+                <TextView
+                    android:id="@+id/descrifazenda"
+                    android:layout_width="282dp"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text= "Assistindo esse vídeo, a criança aprenderá... "
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgfazenda"
+                    app:layout_constraintEnd_toEndOf="@+id/imgfazenda"
+                    app:layout_constraintStart_toStartOf="@+id/imgfazenda"
+                    app:layout_constraintTop_toBottomOf="@+id/fazenda" />
+
+                <ImageView
+                    android:id="@+id/imgselvagens"
+                    android:layout_width="326dp"
+                    android:layout_height="386dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.482"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgfazenda"
+                    app:srcCompat="@drawable/borda_acoes" />
+
+                <TextView
+                    android:id="@+id/textselvagens"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Os Animais Selvagens"
+                    android:textColor="#E8BF70"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgselvagens"
+                    app:layout_constraintHorizontal_bias="0.507"
+                    app:layout_constraintStart_toStartOf="@+id/imgselvagens"
+                    app:layout_constraintTop_toTopOf="@+id/imgselvagens" />
+
+                <ImageView
+                    android:id="@+id/selvagens"
+                    android:layout_width="311dp"
+                    android:layout_height="151dp"
+                    android:layout_marginTop="72dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgselvagens"
+                    app:layout_constraintHorizontal_bias="0.266"
+                    app:layout_constraintStart_toStartOf="@+id/imgselvagens"
+                    app:layout_constraintTop_toTopOf="@+id/textselvagens" />
+
+
+                <TextView
+                    android:id="@+id/descriselvagens"
+                    android:layout_width="282dp"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Que interessante seria a criança aprender alguns..."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgselvagens"
+                    app:layout_constraintEnd_toEndOf="@+id/imgselvagens"
+                    app:layout_constraintStart_toStartOf="@+id/imgselvagens"
+                    app:layout_constraintTop_toBottomOf="@+id/selvagens" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
