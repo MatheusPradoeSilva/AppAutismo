@@ -7,31 +7,30 @@
     android:background="@drawable/menu"
     tools:context=".Menu">
 
-
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="111dp"
         android:layout_height="50dp"
-        android:layout_marginStart="-25dp"
+        android:layout_marginLeft="-25dp"
+        android:layout_marginTop="-50dp"
         android:translationZ="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.054"
         app:srcCompat="@drawable/logo" />
 
+
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView26"
         android:layout_width="108dp"
         android:layout_height="50dp"
-        android:layout_marginStart="-30dp"
         android:fontFamily="@font/adlery"
-        android:gravity="center"
         android:text="BRINK+"
         android:textColor="#2E0084"
-        android:textSize="40sp"
+        android:textSize="40dp"
         android:translationZ="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/menu"
@@ -46,14 +45,16 @@
         android:id="@+id/menu"
         android:layout_width="70dp"
         android:layout_height="41dp"
-        android:src="@drawable/ic_baseline_menu_24"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="-40dp"
         android:translationZ="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintHorizontal_bias="0.997"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01" />
+        app:layout_constraintVertical_bias="0.054"
+        app:srcCompat="@drawable/ic_baseline_menu_24" />
 
     <Button
         android:id="@+id/button3"

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -38,7 +37,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0"
-                    tools:ignore="SpeakableTextPresentCheck"/>
+                    tools:ignore="SpeakableTextPresentCheck" />
 
                 <ImageView
                     android:id="@+id/imageView3"
@@ -93,8 +92,8 @@
 
                 <ImageView
                     android:id="@+id/imageView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="451dp"
+                    android:layout_height="309dp"
                     android:src="@drawable/crinacas"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -107,10 +106,8 @@
 
                 <TextView
                     android:id="@+id/textView8"
-                    android:layout_width="0dp"
-                    android:layout_height="55dp"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginRight="40dp"
+                    android:layout_width="376dp"
+                    android:layout_height="38dp"
                     android:autoSizeTextType="uniform"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center_horizontal"
@@ -119,10 +116,10 @@
                     android:textColor="#454040"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.562"
+                    app:layout_constraintHorizontal_bias="0.479"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView2"
-                    app:layout_constraintVertical_bias="0.0">
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.23">
 
                 </TextView>
 
@@ -176,11 +173,11 @@
                     android:layout_height="47dp"
                     android:layout_margin="20dp"
                     android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
                     android:text="Ver Mais..."
                     android:textAllCaps="false"
                     android:textColor="#005EEF"
                     android:textSize="21sp"
-                    android:fontFamily="@font/bryndan"
                     app:layout_constraintBottom_toBottomOf="@+id/button2"
                     app:layout_constraintEnd_toEndOf="@+id/button2"
                     app:layout_constraintHorizontal_bias="0.687"
@@ -241,11 +238,11 @@
                     android:layout_height="47dp"
                     android:layout_margin="20dp"
                     android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
                     android:text="Ver Mais..."
                     android:textAllCaps="false"
                     android:textColor="#005EEF"
                     android:textSize="21sp"
-                    android:fontFamily="@font/bryndan"
                     app:layout_constraintBottom_toBottomOf="@+id/button5"
                     app:layout_constraintEnd_toEndOf="@+id/button5"
                     app:layout_constraintHorizontal_bias="0.587"
@@ -259,10 +256,8 @@
 
                 <TextView
                     android:id="@+id/textView2"
-                    android:layout_width="0dp"
-                    android:layout_height="55dp"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginRight="40dp"
+                    android:layout_width="376dp"
+                    android:layout_height="38dp"
                     android:autoSizeTextType="uniform"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
@@ -293,11 +288,12 @@
 
                 </ImageView>
 
+
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="169dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/video1"
+                    android:src="@drawable/palavras"
                     android:translationZ="90dp"
                     app:layout_constraintBottom_toBottomOf="@+id/button6"
                     app:layout_constraintEnd_toEndOf="@+id/button6"
@@ -329,11 +325,11 @@
                     android:layout_height="47dp"
                     android:layout_margin="20dp"
                     android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
                     android:text="Ver Mais..."
                     android:textAllCaps="false"
                     android:textColor="#005EEF"
                     android:textSize="21sp"
-                    android:fontFamily="@font/bryndan"
                     app:layout_constraintBottom_toBottomOf="@+id/button6"
                     app:layout_constraintEnd_toEndOf="@+id/button6"
                     app:layout_constraintStart_toEndOf="@+id/imageView5"
@@ -362,7 +358,7 @@
                     android:id="@+id/imageView6"
                     android:layout_width="169dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/video1"
+                    android:src="@drawable/mariana"
                     android:translationZ="90dp"
                     app:layout_constraintBottom_toBottomOf="@+id/button7"
                     app:layout_constraintEnd_toEndOf="@+id/button7"
@@ -396,11 +392,11 @@
                     android:layout_height="47dp"
                     android:layout_margin="20dp"
                     android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
                     android:text="Ver Mais..."
                     android:textAllCaps="false"
                     android:textColor="#005EEF"
                     android:textSize="21sp"
-                    android:fontFamily="@font/bryndan"
                     app:layout_constraintBottom_toBottomOf="@+id/button7"
                     app:layout_constraintEnd_toEndOf="@+id/button7"
                     app:layout_constraintStart_toEndOf="@+id/imageView6"

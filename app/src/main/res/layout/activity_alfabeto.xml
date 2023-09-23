@@ -85,40 +85,48 @@
 
             <ImageView
                 android:id="@+id/gotas"
-                android:layout_width="70dp"
-                android:layout_height="68dp"
-                android:layout_marginLeft="30sp"
-                android:layout_marginTop="64dp"
+                android:layout_width="0dp"
+                android:layout_height="118dp"
+                android:layout_marginStart="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView9"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.021"
                 app:srcCompat="@drawable/gotas" />
 
             <ImageView
                 android:id="@+id/gotas2"
-                android:layout_width="70dp"
-                android:layout_height="68dp"
-                android:layout_marginTop="52dp"
+                android:layout_width="0dp"
+                android:layout_height="118dp"
+                android:layout_marginEnd="30dp"
                 android:rotationY="180"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/textView9"
-                app:layout_constraintTop_toBottomOf="@+id/menu"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.021"
                 app:srcCompat="@drawable/gotas" />
+
 
             <TextView
                 android:id="@+id/textView9"
-                android:layout_width="282dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="64dp"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:autoSizeTextType="uniform"
                 android:fontFamily="@font/bryndan"
                 android:gravity="center"
                 android:text="XuXa - AbeCeDáRiO dA XuXa"
                 android:textColor="#201F1F"
                 android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.04"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.457"
+                app:layout_constraintHorizontal_bias="0.505"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button">
 
@@ -139,8 +147,9 @@
 
                 <TextureView
                     android:id="@+id/textureView"
-                    android:layout_width="299dp"
-                    android:layout_height="166dp" />
+                    android:layout_width="300dp"
+                    android:layout_height="166dp"
+                    />
 
 
             </RelativeLayout>
@@ -148,11 +157,14 @@
 
             <ImageView
                 android:id="@+id/playPauseImageView"
-                android:layout_width="37dp"
+                android:layout_width="0dp"
                 android:layout_height="25dp"
+                android:layout_marginEnd="140dp"
+                android:layout_marginStart="140dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="16dp"
                 android:src="@drawable/ic_play"
+                app:layout_constraintBottom_toTopOf="@+id/progressSeekBar"
                 app:layout_constraintEnd_toEndOf="@+id/imageView5"
                 app:layout_constraintHorizontal_bias="0.501"
                 app:layout_constraintStart_toStartOf="@+id/imageView5"
@@ -161,48 +173,58 @@
 
             <SeekBar
                 android:id="@+id/progressSeekBar"
-                android:layout_width="200dp"
+                android:layout_width="0dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginEnd="90dp"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
                 android:clickable="true"
                 app:layout_constraintBottom_toTopOf="@+id/descrivideo"
                 app:layout_constraintEnd_toEndOf="@+id/imageView5"
-                app:layout_constraintStart_toStartOf="@+id/imageView5"
-                app:layout_constraintTop_toBottomOf="@+id/playPauseImageView"
-                app:layout_constraintVertical_bias="0.458" />
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="@+id/imageView5" />
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="317dp"
-                android:layout_height="471dp"
-                android:layout_marginTop="40dp"
+                android:layout_width="0dp"
+                android:layout_height="470dp"
+                android:layout_margin="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintHorizontal_bias="0.501"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView9"
+                app:layout_constraintVertical_bias="0.1"
                 app:srcCompat="@drawable/borda_acoes" />
-
 
             <TextView
                 android:id="@+id/descrivideo"
-                android:layout_width="285dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="116dp"
+                android:layout_width="0dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="40dp"
+                android:autoSizeTextType="uniform"
                 android:fontFamily="@font/bryndan"
+                android:gravity="center"
                 android:justificationMode="inter_word"
                 android:lineHeight="30sp"
                 android:text="A Xuxa chegou para ensinar o alfabeto!"
                 android:textColor="#201F1F"
                 android:textSize="23sp"
                 android:textStyle="normal"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                app:layout_constraintBottom_toTopOf="@+id/linkvideo"
                 app:layout_constraintEnd_toEndOf="@+id/imageView5"
-                app:layout_constraintHorizontal_bias="0.513"
                 app:layout_constraintStart_toStartOf="@+id/imageView5" />
 
             <TextView
                 android:id="@+id/linkvideo"
-                android:layout_width="285dp"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="40dp"
+                android:autoSizeTextType="uniform"
                 android:fontFamily="@font/bryndan"
                 android:gravity="center"
                 android:justificationMode="inter_word"
@@ -213,8 +235,7 @@
                 android:textStyle="normal"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView5"
                 app:layout_constraintEnd_toEndOf="@+id/imageView5"
-                app:layout_constraintStart_toStartOf="@+id/imageView5"
-                app:layout_constraintTop_toBottomOf="@+id/descrivideo" />
+                app:layout_constraintStart_toStartOf="@+id/imageView5" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>

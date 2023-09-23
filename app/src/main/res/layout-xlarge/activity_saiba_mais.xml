@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:background="#FFFDF9"
         android:gravity="fill"
         android:orientation="vertical">
@@ -91,7 +91,7 @@
                     android:layout_width="0dp"
                     android:layout_height="85dp"
                     android:layout_marginLeft="230dp"
-                    android:layout_marginTop="52dp"
+                    android:layout_marginTop="40dp"
                     android:layout_marginRight="230dp"
                     android:autoSizeTextType="uniform"
                     android:fontFamily="@font/bryndan"
@@ -108,6 +108,35 @@
                     app:layout_constraintTop_toBottomOf="@+id/button">
 
                 </TextView>
+                <ImageView
+                    android:id="@+id/gotas"
+                    android:layout_width="0dp"
+                    android:layout_height="148dp"
+                    android:layout_marginStart="140sp"
+                    android:layout_marginTop="12dp"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/textView7"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/gotas" />
+
+                <ImageView
+                    android:id="@+id/gotas2"
+                    android:layout_width="0dp"
+                    android:layout_height="148dp"
+                    android:layout_marginEnd="140sp"
+                    android:layout_marginTop="12sp"
+                    android:rotationY="180"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView7"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/gotas" />
+
 
                 <ImageView
                     android:id="@+id/button30"
@@ -127,7 +156,7 @@
                     android:id="@+id/imageView18"
                     android:layout_width="294dp"
                     android:layout_height="175dp"
-                    android:src="@drawable/video1"
+                    android:src="@drawable/diquinhas"
                     android:translationZ="90sp"
                     app:layout_constraintBottom_toBottomOf="@+id/button30"
                     app:layout_constraintEnd_toEndOf="@+id/button30"
@@ -192,7 +221,7 @@
                     android:id="@+id/imageView20"
                     android:layout_width="294dp"
                     android:layout_height="175dp"
-                    android:src="@drawable/video1"
+                    android:src="@drawable/autismo_tea"
                     android:translationZ="90sp"
                     app:layout_constraintBottom_toBottomOf="@+id/button32"
                     app:layout_constraintEnd_toEndOf="@+id/button32"
@@ -208,7 +237,7 @@
                     android:autoSizeTextType="uniform"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
-                    android:text="O que é DI?"
+                    android:text="O que é TEA?"
                     android:textColor="#E8BF70"
                     android:textSize="25sp"
                     android:translationZ="90sp"

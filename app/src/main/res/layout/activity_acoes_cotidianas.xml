@@ -10,70 +10,68 @@
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:background="#FFFDF9"
         android:gravity="fill"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="1450dp"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@id/linear"
                 android:layout_width="match_parent"
-                android:layout_height="1820dp"
+                android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <Button
                     android:id="@+id/button"
-                    android:layout_width="410dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="-1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:background="@drawable/menu"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.002">
-
-                </Button>
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="SpeakableTextPresentCheck"/>
 
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="111dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="-25dp"
+                    android:layout_marginTop="-50dp"
                     android:translationZ="90dp"
                     app:layout_constraintBottom_toBottomOf="@+id/button"
                     app:layout_constraintEnd_toEndOf="@+id/button"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/button"
                     app:layout_constraintTop_toTopOf="@+id/button"
-                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintVertical_bias="1.0"
                     app:srcCompat="@drawable/logo" />
 
+
                 <TextView
+                    android:id="@+id/textView26"
                     android:layout_width="108dp"
                     android:layout_height="50dp"
                     android:layout_marginTop="-50dp"
                     android:fontFamily="@font/adlery"
-                    android:gravity="center"
                     android:text="BRINK+"
                     android:textColor="#2E0084"
                     android:textSize="40dp"
                     android:translationZ="90dp"
                     app:layout_constraintBottom_toBottomOf="@+id/button"
-                    app:layout_constraintEnd_toEndOf="@+id/button"
-                    app:layout_constraintHorizontal_bias="0.182"
-                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintEnd_toStartOf="@+id/menu"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/imageView3"
                     app:layout_constraintTop_toTopOf="@+id/button"
                     app:layout_constraintVertical_bias="1.0">
 
                 </TextView>
-
 
                 <ImageView
                     android:id="@+id/menu"
@@ -87,116 +85,135 @@
                     app:layout_constraintHorizontal_bias="0.997"
                     app:layout_constraintStart_toStartOf="@+id/button"
                     app:layout_constraintTop_toTopOf="@+id/button"
-                    app:layout_constraintVertical_bias="1.0"
+                    app:layout_constraintVertical_bias="0.816"
                     app:srcCompat="@drawable/ic_baseline_menu_24" />
 
                 <ImageView
                     android:id="@+id/gotas"
-                    android:layout_width="70dp"
+                    android:layout_width="0dp"
                     android:layout_height="68dp"
-                    android:layout_marginLeft="20sp"
-                    android:layout_marginTop="32dp"
+                    android:layout_marginStart="40sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/textView9"
-                    app:layout_constraintHorizontal_bias="0.049"
+                    app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.011"
                     app:srcCompat="@drawable/gotas" />
 
                 <ImageView
                     android:id="@+id/gotas2"
-                    android:layout_width="70dp"
+                    android:layout_width="0dp"
                     android:layout_height="68dp"
-                    android:layout_marginLeft="-450sp"
-                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="40dp"
                     android:rotationY="180"
+                    app:layout_constraintVertical_bias="0.011"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.953"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toEndOf="@+id/textView9"
-                    app:layout_constraintTop_toBottomOf="@+id/menu"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
                     app:srcCompat="@drawable/gotas" />
+
 
                 <TextView
                     android:id="@+id/textView9"
-                    android:layout_width="333dp"
-                    android:layout_height="35dp"
+                    android:layout_width="0dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="100dp"
+                    android:autoSizeTextType="uniform"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
                     android:text="AçÕeS CoTiDiAnAs"
                     android:textAllCaps="false"
                     android:textColor="#454040"
                     android:textSize="30sp"
-                    app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button">
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.013">
 
                 </TextView>
 
-
                 <ImageView
                     android:id="@+id/imageView5"
-                    android:layout_width="326dp"
-                    android:layout_height="386dp"
-                    android:layout_marginTop="136dp"
+                    android:layout_width="0dp"
+                    android:layout_height="430dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.482"
+                    app:layout_constraintHorizontal_bias="0.423"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9"
+                    app:layout_constraintVertical_bias="0.015"
                     app:srcCompat="@drawable/borda_acoes" />
 
                 <TextView
                     android:id="@+id/textescovar"
-                    android:layout_width="200sp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:autoSizeTextType="uniform"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
                     android:text="Escovando os dentinhos"
                     android:textColor="#E8BF70"
                     android:textSize="25sp"
-                    app:layout_constraintBottom_toTopOf="@+id/escovardentinhos"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView5"
                     app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.522"
                     app:layout_constraintStart_toStartOf="@+id/imageView5"
                     app:layout_constraintTop_toTopOf="@+id/imageView5"
-                    app:layout_constraintVertical_bias="0.771">
-
-                </TextView>
+                    app:layout_constraintVertical_bias="0.08" />
 
                 <ImageView
                     android:id="@+id/escovardentinhos"
-                    android:layout_width="311dp"
-                    android:layout_height="151dp"
-                    android:layout_marginBottom="12dp"
-                    android:src="@drawable/video1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="20dp"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:src="@drawable/escovandodentes"
                     android:translationZ="90dp"
-                    app:layout_constraintBottom_toTopOf="@+id/descriescovar"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView5"
                     app:layout_constraintEnd_toEndOf="@+id/imageView5"
                     app:layout_constraintHorizontal_bias="0.533"
-                    app:layout_constraintStart_toStartOf="@+id/imageView5" />
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/textescovar" />
 
                 <TextView
                     android:id="@+id/descriescovar"
-                    android:layout_width="282dp"
-                    android:layout_height="100dp"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:autoSizeTextType="uniform"
                     android:fontFamily="@font/bryndan"
                     android:justificationMode="inter_word"
                     android:lineHeight="30sp"
                     android:text="Nesse vídeo nosso amiguinho Elmo e seus colegas vão..."
                     android:textColor="#201F1F"
-                    android:textSize="23sp"
                     android:textStyle="normal"
                     app:layout_constraintBottom_toBottomOf="@+id/imageView5"
                     app:layout_constraintEnd_toEndOf="@+id/imageView5"
                     app:layout_constraintStart_toStartOf="@+id/imageView5"
-                    app:layout_constraintTop_toTopOf="@+id/imageView5"
-                    app:layout_constraintVertical_bias="0.916" />
+                    app:layout_constraintTop_toBottomOf="@+id/escovardentinhos"
+                    app:layout_constraintVertical_bias="0.5" />
 
                 <ImageView
                     android:id="@+id/imageView2"
-                    android:layout_width="326dp"
-                    android:layout_height="386dp"
-                    android:layout_marginTop="28dp"
+                    android:layout_width="0dp"
+                    android:layout_height="430dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.02"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.494"
+                    app:layout_constraintHorizontal_bias="0.416"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView5"
                     app:srcCompat="@drawable/borda_quemsomos" />
@@ -204,105 +221,128 @@
 
                 <TextView
                     android:id="@+id/textpalavras"
-                    android:layout_width="200sp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="32dp"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:autoSizeTextType="uniform"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
                     android:text="Palavrinhas Mágicas"
                     android:textColor="#D6417D"
-                    android:textSize="25sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView2"
                     app:layout_constraintEnd_toEndOf="@+id/imageView2"
-                    app:layout_constraintHorizontal_bias="0.357"
+                    app:layout_constraintHorizontal_bias="0.46"
                     app:layout_constraintStart_toStartOf="@+id/imageView2"
-                    app:layout_constraintTop_toTopOf="@+id/imageView2">
+                    app:layout_constraintTop_toTopOf="@+id/imageView2"
+                    app:layout_constraintVertical_bias="0.08">
 
                 </TextView>
 
                 <ImageView
                     android:id="@+id/palavras"
-                    android:layout_width="311dp"
-                    android:layout_height="151dp"
-                    android:layout_marginTop="72dp"
-                    android:src="@drawable/video1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="20dp"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:src="@drawable/palavras"
                     android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView2"
                     app:layout_constraintEnd_toEndOf="@+id/imageView2"
                     app:layout_constraintHorizontal_bias="0.266"
                     app:layout_constraintStart_toStartOf="@+id/imageView2"
-                    app:layout_constraintTop_toTopOf="@+id/textpalavras" />
+                    app:layout_constraintTop_toBottomOf="@+id/textpalavras" />
 
                 <TextView
                     android:id="@+id/descripalavras"
-                    android:layout_width="282dp"
-                    android:layout_height="100dp"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    app:layout_constraintVertical_bias="0.5"
                     android:fontFamily="@font/bryndan"
+                    android:autoSizeTextType="uniform"
                     android:justificationMode="inter_word"
                     android:lineHeight="30sp"
-                    android:text="Aqui vamos fazer uma aventura com... "
+                    android:text="Aqui vamos fazer uma aventura com..."
                     android:textColor="#201F1F"
-                    android:textSize="23sp"
                     android:textStyle="normal"
                     app:layout_constraintBottom_toBottomOf="@+id/imageView2"
                     app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                    app:layout_constraintHorizontal_bias="0.545"
                     app:layout_constraintStart_toStartOf="@+id/imageView2"
                     app:layout_constraintTop_toBottomOf="@+id/palavras" />
 
+
                 <ImageView
-                    android:id="@+id/imorg"
-                    android:layout_width="326dp"
-                    android:layout_height="386dp"
-                    android:layout_marginTop="48dp"
+                    android:id="@+id/imgcoleta"
+                    android:layout_width="0dp"
+                    android:layout_height="430dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.03"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.435"
+                    app:layout_constraintHorizontal_bias="0.47"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/descripalavras"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2"
                     app:srcCompat="@drawable/borda_acoes" />
 
                 <TextView
                     android:id="@+id/textmika"
-                    android:layout_width="200sp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="32dp"
-                    android:layout_marginEnd="76dp"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:autoSizeTextType="uniform"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
-                    android:text="O Diário de Mika - Organização"
+                    android:text="O Diário de Mika - Organizações"
                     android:textColor="#E8BF70"
-                    android:textSize="25sp"
-                    app:layout_constraintEnd_toEndOf="@+id/imorg"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="@+id/imorg"
-                    app:layout_constraintTop_toTopOf="@+id/imorg" />
+                    app:layout_constraintBottom_toBottomOf="@+id/imgcoleta"
+                    app:layout_constraintEnd_toEndOf="@+id/imgcoleta"
+                    app:layout_constraintHorizontal_bias="0.136"
+                    app:layout_constraintStart_toStartOf="@+id/imgcoleta"
+                    app:layout_constraintTop_toTopOf="@+id/imgcoleta"
+                    app:layout_constraintVertical_bias="0.08" />
 
                 <ImageView
                     android:id="@+id/mika"
-                    android:layout_width="311dp"
-                    android:layout_height="151dp"
-                    android:layout_marginTop="72dp"
-                    android:src="@drawable/video1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/organizacao"
                     android:translationZ="90dp"
-                    app:layout_constraintEnd_toEndOf="@+id/imorg"
-                    app:layout_constraintHorizontal_bias="0.266"
-                    app:layout_constraintStart_toStartOf="@+id/imorg"
-                    app:layout_constraintTop_toTopOf="@+id/textmika" />
-
+                    app:layout_constraintBottom_toBottomOf="@+id/imgcoleta"
+                    app:layout_constraintEnd_toEndOf="@+id/imgcoleta"
+                    app:layout_constraintHorizontal_bias="0.7"
+                    app:layout_constraintStart_toStartOf="@+id/imgcoleta"
+                    app:layout_constraintTop_toBottomOf="@+id/textmika"
+                    app:layout_constraintVertical_bias="0.0" />
 
                 <TextView
                     android:id="@+id/descrimika"
-                    android:layout_width="282dp"
-                    android:layout_height="100dp"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    app:layout_constraintVertical_bias="0.5"
                     android:fontFamily="@font/bryndan"
+                    android:autoSizeTextType="uniform"
                     android:justificationMode="inter_word"
                     android:lineHeight="30sp"
                     android:text="Aqui vamos fazer uma aventura com a turminha..."
                     android:textColor="#201F1F"
                     android:textSize="23sp"
                     android:textStyle="normal"
-                    app:layout_constraintBottom_toBottomOf="@+id/imorg"
-                    app:layout_constraintEnd_toEndOf="@+id/imorg"
-                    app:layout_constraintStart_toStartOf="@+id/imorg"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgcoleta"
+                    app:layout_constraintEnd_toEndOf="@+id/imgcoleta"
+                    app:layout_constraintHorizontal_bias="0.477"
+                    app:layout_constraintStart_toStartOf="@+id/imgcoleta"
                     app:layout_constraintTop_toBottomOf="@+id/mika" />
+
+
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </LinearLayout>

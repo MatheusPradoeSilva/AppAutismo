@@ -10,7 +10,7 @@ class O_Que_e_DI : AppCompatActivity() {
     var menu: ImageView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_oque_edi)
+        setContentView(R.layout.activity_oque_e_tea)
 
         menu = findViewById(R.id.menu)
         menu!!.setOnClickListener {

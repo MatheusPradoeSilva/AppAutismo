@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:background="#FFFDF9"
         android:gravity="fill"
         android:orientation="vertical">
@@ -23,7 +23,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@id/linear"
                 android:layout_width="match_parent"
-                android:layout_height="3050dp"
+                android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <Button
@@ -176,7 +176,7 @@
                     android:layout_height="200dp"
                     android:layout_margin="20dp"
                     app:layout_constraintVertical_bias="0.0"
-                    android:src="@drawable/video1"
+                    android:src="@drawable/amigossauro"
                     android:translationZ="90dp"
                     app:layout_constraintBottom_toBottomOf="@+id/imageView5"
                     app:layout_constraintEnd_toEndOf="@+id/imageView5"
@@ -244,7 +244,7 @@
                     android:layout_height="200dp"
                     android:layout_margin="20dp"
                     app:layout_constraintVertical_bias="0.0"
-                    android:src="@drawable/video1"
+                    android:src="@drawable/mariana"
                     android:translationZ="90dp"
                     app:layout_constraintBottom_toBottomOf="@+id/imageView2"
                     app:layout_constraintEnd_toEndOf="@+id/imageView2"
@@ -310,7 +310,7 @@
                     android:layout_width="0dp"
                     android:layout_height="200dp"
                     android:layout_margin="20dp"
-                    android:src="@drawable/video1"
+                    android:src="@drawable/coleta"
                     android:translationZ="90dp"
                     app:layout_constraintBottom_toBottomOf="@+id/imgcoleta"
                     app:layout_constraintEnd_toEndOf="@+id/imgcoleta"
@@ -379,7 +379,7 @@
                     android:layout_width="0dp"
                     android:layout_height="200dp"
                     android:layout_margin="20dp"
-                    android:src="@drawable/video1"
+                    android:src="@drawable/banho"
                     android:translationZ="90dp"
                     app:layout_constraintVertical_bias="0.0"
                     app:layout_constraintBottom_toBottomOf="@+id/imgbanho"
@@ -449,7 +449,7 @@
                     android:layout_width="0dp"
                     android:layout_height="200dp"
                     android:layout_margin="20dp"
-                    android:src="@drawable/video1"
+                    android:src="@drawable/alfabeto"
                     android:translationZ="90dp"
                     app:layout_constraintVertical_bias="0.0"
                     app:layout_constraintBottom_toBottomOf="@+id/imgalfabeto"
@@ -518,7 +518,7 @@
                     android:layout_width="0dp"
                     android:layout_height="200dp"
                     android:layout_margin="20dp"
-                    android:src="@drawable/video1"
+                    android:src="@drawable/chefinho"
                     android:translationZ="90dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="@+id/imglado"

@@ -85,40 +85,39 @@
 
             <ImageView
                 android:id="@+id/gotas"
-                android:layout_width="70dp"
-                android:layout_height="68dp"
-                android:layout_marginLeft="30sp"
-                android:layout_marginTop="64dp"
-                app:layout_constraintEnd_toStartOf="@+id/textView9"
-                app:layout_constraintHorizontal_bias="1.0"
+                android:layout_width="91dp"
+                android:layout_height="91dp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.03"
                 app:srcCompat="@drawable/gotas" />
 
             <ImageView
                 android:id="@+id/gotas2"
-                android:layout_width="70dp"
-                android:layout_height="68dp"
-                android:layout_marginTop="52dp"
+                android:layout_width="91dp"
+                android:layout_height="91dp"
                 android:rotationY="180"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toEndOf="@+id/textView9"
-                app:layout_constraintTop_toBottomOf="@+id/menu"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.028"
                 app:srcCompat="@drawable/gotas" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="282dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="36dp"
                 android:fontFamily="@font/bryndan"
                 android:gravity="center"
                 android:text="AmIgOsSaUrO - aMaRrAr O SaPaTo"
                 android:textColor="#201F1F"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.457"
+                app:layout_constraintHorizontal_bias="0.441"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button">
 

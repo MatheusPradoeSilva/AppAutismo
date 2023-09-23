@@ -565,7 +565,7 @@
                 </Button>
 
 
-                <Button
+                <ImageView
                     android:id="@+id/button9"
                     android:layout_width="0dp"
                     android:layout_height="120dp"
@@ -578,7 +578,7 @@
                     android:background="@drawable/cards_iniciais"
                     app:layout_constraintTop_toBottomOf="@+id/button8">
 
-                </Button>
+                </ImageView>
 
                 <ImageView
                     android:id="@+id/imageView18"
