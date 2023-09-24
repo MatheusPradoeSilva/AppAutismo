@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:background="#FFFDF9"
         android:gravity="fill"
         android:orientation="vertical">
@@ -85,42 +85,49 @@
 
             <ImageView
                 android:id="@+id/gotas"
-                android:layout_width="70dp"
-                android:layout_height="68dp"
-                android:layout_marginLeft="30sp"
-                android:layout_marginTop="36dp"
+                android:layout_width="0dp"
+                android:layout_height="118dp"
+                android:layout_marginStart="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView9"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.011"
                 app:srcCompat="@drawable/gotas" />
-
 
             <ImageView
                 android:id="@+id/gotas2"
-                android:layout_width="70dp"
-                android:layout_height="68dp"
-                android:layout_marginTop="32dp"
+                android:layout_width="0dp"
+                android:layout_height="118dp"
+                android:layout_marginEnd="30dp"
                 android:rotationY="180"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/textView9"
-                app:layout_constraintTop_toBottomOf="@+id/menu"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.011"
                 app:srcCompat="@drawable/gotas" />
 
             <TextView
                 android:id="@+id/textView9"
-                android:layout_width="282dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:autoSizeTextType="uniform"
                 android:fontFamily="@font/bryndan"
                 android:gravity="center"
-                android:text="CuIdAr Do MeIo AmBiEnTe"                android:textColor="#201F1F"
+                android:text="CuIdAr Do MeIo AmBiEnTe "
+                android:textColor="#201F1F"
                 android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.457"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button">
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.04">
 
             </TextView>
 
@@ -172,9 +179,11 @@
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="320dp"
-                android:layout_height="498dp"
-                android:layout_marginTop="40dp"
+                android:layout_width="0dp"
+                android:layout_height="530dp"
+                android:layout_margin="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.493"
                 app:layout_constraintStart_toStartOf="parent"
@@ -184,25 +193,29 @@
 
             <TextView
                 android:id="@+id/descrivideo"
-                android:layout_width="285dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="104dp"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="16dp"
+                android:autoSizeTextType="uniform"
                 android:fontFamily="@font/bryndan"
                 android:justificationMode="inter_word"
                 android:lineHeight="30sp"
-                android:text="Como cuidar do meio ambiente? Aprenda algumas dicas para ajudar a preservar o nosso planeta!"
+                android:text="Como cuidar do meio ambiente? Aprenda algumas dicas para ajudar a preservar o nosso planeta! "
                 android:textColor="#201F1F"
                 android:textSize="23sp"
                 android:textStyle="normal"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                app:layout_constraintBottom_toTopOf="@+id/linkvideo"
                 app:layout_constraintEnd_toEndOf="@+id/imageView5"
-                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="@+id/imageView5" />
 
             <TextView
                 android:id="@+id/linkvideo"
                 android:layout_width="285dp"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
                 android:fontFamily="@font/bryndan"
                 android:gravity="center"
                 android:justificationMode="inter_word"
@@ -213,16 +226,15 @@
                 android:textStyle="normal"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView5"
                 app:layout_constraintEnd_toEndOf="@+id/imageView5"
-                app:layout_constraintHorizontal_bias="0.514"
-                app:layout_constraintStart_toStartOf="@+id/imageView5"
-                app:layout_constraintTop_toBottomOf="@+id/descrivideo"
-                app:layout_constraintVertical_bias="0.647" />
+                app:layout_constraintHorizontal_bias="0.545"
+                app:layout_constraintStart_toStartOf="@+id/imageView5" />
 
             <TextView
                 android:id="@+id/textView16"
-                android:layout_width="339dp"
+                android:layout_width="0dp"
                 android:layout_height="62dp"
-                android:layout_marginTop="64dp"
+                android:layout_margin="40dp"
+                android:autoSizeTextType="uniform"
                 android:fontFamily="sans-serif"
                 android:justificationMode="inter_word"
                 android:text="Clique no botão ou no link para baixar o arquivo e ter acesso à atividade."
@@ -230,17 +242,23 @@
                 android:textColor="#201F1F"
                 android:textSize="18sp"
                 android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
             <ImageView
                 android:id="@+id/pdf"
-                android:layout_width="352dp"
+                android:layout_width="0dp"
                 android:layout_height="63dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:src="@drawable/borda_acoes"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.18"
                 app:layout_constraintHorizontal_bias="0.457"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView16">
@@ -248,21 +266,21 @@
             </ImageView>
 
             <TextView
-                android:id="@+id/cuidarpdf"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/origapdf"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
                 android:fontFamily="@font/bryndan"
+                android:gravity="center"
                 android:justificationMode="inter_word"
                 android:lineHeight="30sp"
                 android:text="@string/cuidar"
                 android:textColor="#201F1F"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="@+id/pdf"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.34"
+                app:layout_constraintEnd_toEndOf="@+id/pdf"
+                app:layout_constraintHorizontal_bias="0.444"
                 app:layout_constraintStart_toStartOf="@+id/pdf"
-                app:layout_constraintTop_toTopOf="@+id/pdf"
-                app:layout_constraintVertical_bias="0.545" />
+                app:layout_constraintTop_toTopOf="@+id/pdf" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
