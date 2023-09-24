@@ -266,7 +266,7 @@
             </ImageView>
 
             <TextView
-                android:id="@+id/origapdf"
+                android:id="@+id/cuidarpdf"
                 android:layout_width="0dp"
                 android:layout_height="20dp"
                 android:fontFamily="@font/bryndan"

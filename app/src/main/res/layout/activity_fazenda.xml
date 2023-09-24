@@ -275,7 +275,7 @@
             </ImageView>
 
             <TextView
-                android:id="@+id/palavraspdf"
+                android:id="@+id/fazendapdf"
                 android:layout_width="0dp"
                 android:layout_height="20dp"
                 android:autoSizeTextType="uniform"
