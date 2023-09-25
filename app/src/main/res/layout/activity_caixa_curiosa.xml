@@ -84,7 +84,7 @@
             <ImageView
                 android:id="@+id/gotas"
                 android:layout_width="0dp"
-                android:layout_height="98dp"
+                android:layout_height="118dp"
                 android:layout_marginStart="40sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView8"
@@ -97,7 +97,7 @@
             <ImageView
                 android:id="@+id/gotas2"
                 android:layout_width="0dp"
-                android:layout_height="98dp"
+                android:layout_height="118dp"
                 android:layout_marginEnd="40dp"
                 android:rotationY="180"
                 app:layout_constraintBottom_toBottomOf="parent"

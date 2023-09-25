@@ -92,20 +92,20 @@
                 <ImageView
                     android:id="@+id/gotas"
                     android:layout_width="0dp"
-                    android:layout_height="98dp"
+                    android:layout_height="118dp"
                     android:layout_marginStart="50sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/textView9"
                     app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
-                    app:layout_constraintVertical_bias="0.021"
+                    app:layout_constraintVertical_bias="0.011"
                     app:srcCompat="@drawable/gotas" />
 
                 <ImageView
                     android:id="@+id/gotas2"
                     android:layout_width="0dp"
-                    android:layout_height="98dp"
+                    android:layout_height="118dp"
                     android:layout_marginEnd="50dp"
                     android:rotationY="180"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -113,14 +113,14 @@
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toEndOf="@+id/textView9"
                     app:layout_constraintTop_toBottomOf="@+id/button"
-                    app:layout_constraintVertical_bias="0.021"
+                    app:layout_constraintVertical_bias="0.011"
                     app:srcCompat="@drawable/gotas" />
 
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="0dp"
-                    android:layout_height="65dp"
+                    android:layout_height="85dp"
                     android:layout_marginLeft="130dp"
                     android:layout_marginRight="130dp"
                     android:autoSizeTextType="uniform"
@@ -141,7 +141,7 @@
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="0dp"
-                    android:layout_height="1780dp"
+                    android:layout_height="1400dp"
                     android:layout_margin="20dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -207,66 +207,6 @@
                     app:layout_constraintHorizontal_bias="0.467"
                     app:layout_constraintStart_toStartOf="@+id/imageView5"
                     app:layout_constraintTop_toBottomOf="@+id/parte2" />
-
-                <TextView
-                    android:id="@+id/parte4"
-                    android:layout_width="0dp"
-                    android:layout_margin="45dp"
-                    android:layout_height="80dp"
-                    android:fontFamily="@font/bryndan"
-                    android:autoSizeTextType="uniform"
-                    android:justificationMode="inter_word"
-                    android:lineHeight="30sp"
-                    android:text="    Se você quiser, pode também acessar o nosso site clicando:"
-                    android:textColor="#201F1F"
-                    android:textSize="23sp"
-                    android:textStyle="normal"
-                    app:layout_constraintVertical_bias="0.0"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
-                    app:layout_constraintHorizontal_bias="0.467"
-                    app:layout_constraintStart_toStartOf="@+id/imageView5"
-                    app:layout_constraintTop_toBottomOf="@+id/parte3" />
-
-                <TextView
-                    android:id="@+id/link"
-                    android:layout_width="0dp"
-                    android:layout_margin="45dp"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/bryndan"
-                    android:justificationMode="inter_word"
-                    android:lineHeight="30sp"
-                    android:gravity="center"
-                    android:text="@string/hyperlink"
-                    android:textColor="#D6417D"
-                    android:textSize="23sp"
-                    android:textStyle="normal"
-                    app:layout_constraintVertical_bias="0.0"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
-                    app:layout_constraintHorizontal_bias="0.467"
-                    app:layout_constraintStart_toStartOf="@+id/imageView5"
-                    app:layout_constraintTop_toBottomOf="@+id/parte4" />
-
-                <TextView
-                    android:id="@+id/parte6"
-                    android:layout_width="0dp"
-                    android:layout_margin="45dp"
-                    android:layout_height="80dp"
-                    android:fontFamily="@font/bryndan"
-                    android:autoSizeTextType="uniform"
-                    android:justificationMode="inter_word"
-                    android:lineHeight="30sp"
-                    android:text="   Esperamos que desfrute e faça bom proveito do nosso aplicativo!"
-                    android:textColor="#201F1F"
-                    android:textSize="23sp"
-                    android:textStyle="normal"
-                    app:layout_constraintVertical_bias="0.0"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
-                    app:layout_constraintHorizontal_bias="0.467"
-                    app:layout_constraintStart_toStartOf="@+id/imageView5"
-                    app:layout_constraintTop_toBottomOf="@+id/link" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
