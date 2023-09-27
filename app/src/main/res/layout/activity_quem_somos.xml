@@ -141,13 +141,12 @@
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="0dp"
-                    android:layout_height="1400dp"
+                    android:layout_height="1450dp"
                     android:layout_margin="20dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView9"
-                    app:layout_constraintVertical_bias="0.01"
                     app:srcCompat="@drawable/borda_quemsomos" />
 
                 <TextView
@@ -192,21 +191,21 @@
                 <TextView
                     android:id="@+id/parte3"
                     android:layout_width="0dp"
-                    android:layout_margin="45dp"
                     android:layout_height="650dp"
-                    android:fontFamily="@font/bryndan"
+                    android:layout_margin="45dp"
                     android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/bryndan"
                     android:justificationMode="inter_word"
                     android:lineHeight="30sp"
                     android:text="   O nosso aplicativo Brink+ traz meios de ensino através de tutoriais de brinquedos sensoriais e vídeos educativos, desde ações do dia-a-dia, como também relacionados ao meio ambiente e músicas infantis. Além disso, há também uma aba elaborada para os pais ou responsáveis, onde será possível acessar dicas para melhorar o comportamento e concentração da criança, e outra aba para explicar o que é TEA (Transtorno do Espectro Autista)."
                     android:textColor="#201F1F"
                     android:textStyle="normal"
-                    app:layout_constraintVertical_bias="0.0"
-                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView5"
                     app:layout_constraintEnd_toEndOf="@+id/imageView5"
                     app:layout_constraintHorizontal_bias="0.467"
                     app:layout_constraintStart_toStartOf="@+id/imageView5"
-                    app:layout_constraintTop_toBottomOf="@+id/parte2" />
+                    app:layout_constraintTop_toBottomOf="@+id/parte2"
+                    app:layout_constraintVertical_bias="0.0" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>

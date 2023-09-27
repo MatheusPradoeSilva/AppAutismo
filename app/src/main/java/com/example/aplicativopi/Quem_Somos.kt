@@ -13,7 +13,6 @@ import android.widget.TextView
 
 class Quem_Somos : AppCompatActivity() {
     var quemsomos: ImageView? = null
-    var link: TextView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quem_somos)
@@ -24,19 +23,5 @@ class Quem_Somos : AppCompatActivity() {
             val intent = Intent(this@Quem_Somos, Menu::class.java)
             startActivity(intent)
         }
-
-        link = findViewById<View>(R.id.link) as TextView
-        link!!.setOnClickListener {
-            viewpdf() }
-
     }
-    private fun viewpdf() {
-        // add the link of pdf
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://kirabarbosa05.wixsite.com/meusite"))
-
-        // start activity
-        startActivity(intent)
-    }
-
-
 }
