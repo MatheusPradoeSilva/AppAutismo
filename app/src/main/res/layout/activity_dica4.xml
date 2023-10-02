@@ -28,52 +28,50 @@
 
                 <Button
                     android:id="@+id/button"
-                    android:layout_width="410dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="-1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:background="@drawable/menu"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.002">
-
-                </Button>
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="SpeakableTextPresentCheck"/>
 
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="111dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="-25dp"
+                    android:layout_marginTop="-50dp"
                     android:translationZ="90dp"
                     app:layout_constraintBottom_toBottomOf="@+id/button"
                     app:layout_constraintEnd_toEndOf="@+id/button"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/button"
                     app:layout_constraintTop_toTopOf="@+id/button"
-                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintVertical_bias="1.0"
                     app:srcCompat="@drawable/logo" />
 
+
                 <TextView
+                    android:id="@+id/textView26"
                     android:layout_width="108dp"
                     android:layout_height="50dp"
                     android:layout_marginTop="-50dp"
                     android:fontFamily="@font/adlery"
-                    android:gravity="center"
                     android:text="BRINK+"
                     android:textColor="#2E0084"
                     android:textSize="40dp"
                     android:translationZ="90dp"
                     app:layout_constraintBottom_toBottomOf="@+id/button"
-                    app:layout_constraintEnd_toEndOf="@+id/button"
-                    app:layout_constraintHorizontal_bias="0.182"
-                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintEnd_toStartOf="@+id/menu"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/imageView3"
                     app:layout_constraintTop_toTopOf="@+id/button"
                     app:layout_constraintVertical_bias="1.0">
 
                 </TextView>
-
 
                 <ImageView
                     android:id="@+id/menu"
@@ -87,8 +85,9 @@
                     app:layout_constraintHorizontal_bias="0.997"
                     app:layout_constraintStart_toStartOf="@+id/button"
                     app:layout_constraintTop_toTopOf="@+id/button"
-                    app:layout_constraintVertical_bias="1.0"
+                    app:layout_constraintVertical_bias="0.816"
                     app:srcCompat="@drawable/ic_baseline_menu_24" />
+
 
 
                 <ImageView

@@ -15,13 +15,13 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="1470dp"
+            android:layout_height="1680dp"
             android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@id/linear"
                 android:layout_width="match_parent"
-                android:layout_height="1820dp"
+                android:layout_height="1880dp"
                 android:orientation="vertical">
 
                 <Button
@@ -80,10 +80,10 @@
                     android:translationZ="90dp"
                     app:layout_constraintBottom_toBottomOf="@+id/button"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.997"
+                    app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="@+id/button"
                     app:layout_constraintTop_toTopOf="@+id/button"
-                    app:layout_constraintVertical_bias="0.816"
+                    app:layout_constraintVertical_bias="1.0"
                     app:srcCompat="@drawable/ic_baseline_menu_24" />
 
                 <ImageView
@@ -138,7 +138,7 @@
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="0dp"
-                    android:layout_height="155dp"
+                    android:layout_height="185dp"
                     android:layout_margin="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintVertical_bias="0.0"
@@ -186,33 +186,33 @@
                     app:layout_constraintStart_toStartOf="@+id/imageView5"
                     app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
+
                 <Button
                     android:id="@+id/dica1"
                     android:layout_width="0dp"
                     android:layout_height="47dp"
                     android:layout_marginStart="150dp"
-                    android:layout_marginEnd="25dp"
                     android:layout_marginTop="-6dp"
+                    android:layout_marginEnd="25dp"
                     android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
                     android:text="Ver Dica"
                     android:textAllCaps="false"
                     android:textColor="#005EEF"
                     android:textSize="21sp"
-                    android:fontFamily="@font/bryndan"
                     app:layout_constraintBottom_toBottomOf="@+id/imageView5"
                     app:layout_constraintEnd_toEndOf="@+id/imageView5"
-                    app:layout_constraintHorizontal_bias="0.845"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/imageView5"
                     app:layout_constraintTop_toBottomOf="@+id/descriamigo"
-                    app:layout_constraintVertical_bias="0.0">
+                    app:layout_constraintVertical_bias="0.633">
 
                 </Button>
-
 
                 <ImageView
                     android:id="@+id/img2"
                     android:layout_width="0dp"
-                    android:layout_height="155dp"
+                    android:layout_height="195dp"
                     android:layout_margin="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintVertical_bias="0.0"
@@ -284,7 +284,7 @@
                 <ImageView
                     android:id="@+id/img3"
                     android:layout_width="0dp"
-                    android:layout_height="155dp"
+                    android:layout_height="165dp"
                     android:layout_margin="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintVertical_bias="0.0"
@@ -337,26 +337,27 @@
                     android:layout_width="0dp"
                     android:layout_height="47dp"
                     android:layout_marginStart="150dp"
-                    android:layout_marginEnd="25dp"
                     android:layout_marginTop="-6dp"
+                    android:layout_marginEnd="25dp"
                     android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
                     android:text="Ver Dica"
                     android:textAllCaps="false"
                     android:textColor="#005EEF"
                     android:textSize="21sp"
-                    android:fontFamily="@font/bryndan"
                     app:layout_constraintBottom_toBottomOf="@+id/img3"
                     app:layout_constraintEnd_toEndOf="@+id/img3"
-                    app:layout_constraintHorizontal_bias="0.845"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/img3"
-                    app:layout_constraintTop_toBottomOf="@+id/descri3">
+                    app:layout_constraintTop_toBottomOf="@+id/descri3"
+                    app:layout_constraintVertical_bias="0.666">
 
                 </Button>
 
                 <ImageView
                     android:id="@+id/img4"
                     android:layout_width="0dp"
-                    android:layout_height="158dp"
+                    android:layout_height="188dp"
                     android:layout_margin="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintVertical_bias="0.0"
@@ -408,20 +409,20 @@
                     android:layout_width="0dp"
                     android:layout_height="47dp"
                     android:layout_marginStart="150dp"
-                    android:layout_marginEnd="25dp"
                     android:layout_marginTop="-6dp"
+                    android:layout_marginEnd="25dp"
                     android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
                     android:text="Ver Dica"
                     android:textAllCaps="false"
                     android:textColor="#005EEF"
                     android:textSize="21sp"
-                    android:fontFamily="@font/bryndan"
                     app:layout_constraintBottom_toBottomOf="@+id/img4"
                     app:layout_constraintEnd_toEndOf="@+id/img4"
-                    app:layout_constraintHorizontal_bias="0.845"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/img4"
                     app:layout_constraintTop_toBottomOf="@+id/descri4"
-                    app:layout_constraintVertical_bias="0.0">
+                    app:layout_constraintVertical_bias="0.472">
 
                 </Button>
 
@@ -500,7 +501,7 @@
                 <ImageView
                     android:id="@+id/img6"
                     android:layout_width="0dp"
-                    android:layout_height="187dp"
+                    android:layout_height="197dp"
                     android:layout_margin="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintVertical_bias="0.0"
@@ -552,27 +553,27 @@
                     android:layout_width="0dp"
                     android:layout_height="47dp"
                     android:layout_marginStart="150dp"
-                    android:layout_marginEnd="25dp"
                     android:layout_marginTop="-6dp"
+                    android:layout_marginEnd="25dp"
                     android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
                     android:text="Ver Dica"
                     android:textAllCaps="false"
                     android:textColor="#005EEF"
                     android:textSize="21sp"
-                    android:fontFamily="@font/bryndan"
                     app:layout_constraintBottom_toBottomOf="@+id/img6"
                     app:layout_constraintEnd_toEndOf="@+id/img6"
-                    app:layout_constraintHorizontal_bias="0.881"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/img6"
                     app:layout_constraintTop_toBottomOf="@+id/descri6"
-                    app:layout_constraintVertical_bias="0.0">
+                    app:layout_constraintVertical_bias="0.522">
 
                 </Button>
 
                 <ImageView
                     android:id="@+id/img7"
                     android:layout_width="0dp"
-                    android:layout_height="155dp"
+                    android:layout_height="175dp"
                     android:layout_margin="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintVertical_bias="0.0"
@@ -624,20 +625,20 @@
                     android:layout_width="0dp"
                     android:layout_height="47dp"
                     android:layout_marginStart="150dp"
-                    android:layout_marginEnd="25dp"
                     android:layout_marginTop="-6dp"
+                    android:layout_marginEnd="25dp"
                     android:background="@drawable/botao_inicial"
+                    android:fontFamily="@font/bryndan"
                     android:text="Ver Dica"
                     android:textAllCaps="false"
                     android:textColor="#005EEF"
                     android:textSize="21sp"
-                    android:fontFamily="@font/bryndan"
                     app:layout_constraintBottom_toBottomOf="@+id/img7"
                     app:layout_constraintEnd_toEndOf="@+id/img7"
-                    app:layout_constraintHorizontal_bias="0.881"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/img7"
                     app:layout_constraintTop_toBottomOf="@+id/descri7"
-                    app:layout_constraintVertical_bias="0.0">
+                    app:layout_constraintVertical_bias="0.583">
 
                 </Button>
 

@@ -155,34 +155,22 @@
             android:name=".Jogo_das_Emocoes"
             android:exported="false"
             android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Menu_Quem_Somos"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+
         <activity
             android:name=".Quem_Somos"
             android:exported="false"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".Menu_Tutoriais"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+
         <activity
             android:name=".Tutoriais"
             android:exported="false"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".Menu_Saiba_Mais"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+
         <activity
             android:name=".Saiba_Mais"
             android:exported="false"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".Menu_Videos_Educativos"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+
         <activity
             android:name=".Videos_Educativos"
             android:exported="false"

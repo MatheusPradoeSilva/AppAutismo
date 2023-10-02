@@ -23,7 +23,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@id/linear"
                 android:layout_width="match_parent"
-                android:layout_height="1350dp"
+                android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <Button
@@ -145,10 +145,11 @@
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="0dp"
-                    android:layout_height="1150dp"
+                    android:layout_height="0dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="132dp"
+                    android:layout_marginBottom="150dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.504"
@@ -179,55 +180,21 @@
                 <TextView
                     android:id="@+id/parte2"
                     android:layout_width="0dp"
+                    android:layout_height="wrap_content"
                     android:layout_margin="35dp"
-                    android:layout_height="600dp"
-                    app:layout_constraintVertical_bias="0.0"
-                    app:layout_constraintBottom_toBottomOf="parent"
                     android:fontFamily="@font/bryndan"
                     android:justificationMode="inter_word"
                     android:lineHeight="30sp"
-                    android:text="   O TEA é um transtorno do neurodesenvolvimento que afeta a comunicação, interação social e pode envolver comportamentos repetitivos. É parte do Transtorno do Espectro Autista (TEA), que abrange uma ampla variedade de experiências. O diagnóstico geralmente ocorre na infância, e a intervenção precoce é importante. A aceitação e inclusão das pessoas com autismo são essenciais. Cada indivíduo no espectro é único. Conscientização e compreensão são cruciais para criar ambientes mais inclusivos. No nosso App:"
+                    android:text="   O TEA é um transtorno do neurodesenvolvimento que afeta a comunicação, interação social e pode envolver comportamentos repetitivos. É parte do Transtorno do Espectro Autista (TEA), que abrange uma ampla variedade de experiências. O diagnóstico geralmente ocorre na infância, e a intervenção precoce é importante. A aceitação e inclusão das pessoas com autismo são essenciais. Cada indivíduo no espectro é único. Conscientização e compreensão são cruciais para criar ambientes mais inclusivos."
                     android:textColor="#201F1F"
                     android:textSize="23sp"
                     android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView5"
                     app:layout_constraintEnd_toEndOf="@+id/imageView5"
                     app:layout_constraintHorizontal_bias="0.467"
                     app:layout_constraintStart_toStartOf="@+id/imageView5"
-                    app:layout_constraintTop_toBottomOf="@+id/parte1" />
-
-
-                <TextView
-                    android:id="@+id/parte4"
-                    android:layout_width="271dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:fontFamily="@font/adlery"
-                    android:gravity="center"
-                    android:text="BRINK+"
-                    android:textColor="#2E0084"
-                    android:textSize="30dp"
-                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
-                    app:layout_constraintStart_toStartOf="@+id/imageView5"
-                    app:layout_constraintTop_toBottomOf="@+id/parte2" />
-
-                <TextView
-                    android:id="@+id/parte5"
-                    android:layout_width="0dp"
-                    android:layout_margin="35dp"
-                    android:layout_height="200dp"
-                    app:layout_constraintVertical_bias="0.0"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    android:layout_marginTop="8dp"
-                    android:fontFamily="@font/bryndan"
-                    android:justificationMode="inter_word"
-                    android:lineHeight="30sp"
-                    android:text="   você pode encontrar dicas, vídeos educativos que vão auxiliar a criança a se desenvolver melhor, e também ter acesso a tutoriais de brinquedos propostos pelos próprios criadores."
-                    android:textColor="#201F1F"
-                    android:textSize="23sp"
-                    android:textStyle="normal"
-                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
-                    app:layout_constraintStart_toStartOf="@+id/imageView5"
-                    app:layout_constraintTop_toBottomOf="@+id/parte4" />
+                    app:layout_constraintTop_toBottomOf="@+id/parte1"
+                    app:layout_constraintVertical_bias="0.0" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
